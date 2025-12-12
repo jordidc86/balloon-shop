@@ -19,7 +19,7 @@ export default function Hero() {
                         <Link href="#shop" className="btn btn-primary">
                             Browse Components
                         </Link>
-                        <Link href="#" className={styles.secondaryLink}>
+                        <Link href="https://schroederballon.de/en/technical-support/" target="_blank" className={styles.secondaryLink}>
                             Download Manuals →
                         </Link>
                     </div>
