@@ -1,0 +1,79 @@
+.hero {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url('/hero_balloon_1765551636457.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%);
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    max-width: 600px;
+    animation: slideUp 1s ease forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.title {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.highlight {
+    color: var(--color-accent);
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 32px;
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 480px;
+}
+
+.actions {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.secondaryLink {
+    color: white;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+}
+
+.secondaryLink:hover {
+    border-bottom-color: var(--color-accent);
+}
+
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
