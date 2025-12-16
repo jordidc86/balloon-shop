@@ -1,7 +1,7 @@
 export type Product = {
   id: string;
   name: string;
-  category: 'Burner' | 'Basket' | 'Envelope' | 'Instruments' | 'Parts';
+  category: string;
   price: number;
   image: string;
   description: string;
@@ -12,81 +12,81 @@ export const products: Product[] = [
   {
     "id": "10000",
     "name": "Hoodie",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 4,
-    "image": "/placeholder-10000.png",
+    "image": "/placeholder-10000.svg",
     "description": "Hoodie",
     "sku": "10000"
   },
   {
     "id": "10001",
     "name": "T-Shirt men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 1,
-    "image": "/placeholder-10001.png",
+    "image": "/placeholder-10001.svg",
     "description": "T-Shirt men",
     "sku": "10001"
   },
   {
     "id": "10002",
     "name": "Vest",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 41.18,
-    "image": "/placeholder-10002.png",
+    "image": "/placeholder-10002.svg",
     "description": "Vest",
     "sku": "10002"
   },
   {
     "id": "10003",
     "name": "Hoodie men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 48.74,
-    "image": "/placeholder-10003.png",
+    "image": "/placeholder-10003.svg",
     "description": "Hoodie men",
     "sku": "10003"
   },
   {
     "id": "10004",
     "name": "Apparel item men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 30.25,
-    "image": "/placeholder-10004.png",
+    "image": "/placeholder-10004.svg",
     "description": "Apparel item men",
     "sku": "10004"
   },
   {
     "id": "10005",
     "name": "Apparel item men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 15.13,
-    "image": "/placeholder-10005.png",
+    "image": "/placeholder-10005.svg",
     "description": "Apparel item men",
     "sku": "10005"
   },
   {
     "id": "10006",
     "name": "Scarf",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 0,
-    "image": "/placeholder-10006.png",
+    "image": "/placeholder-10006.svg",
     "description": "Scarf",
     "sku": "10006"
   },
   {
     "id": "10007",
     "name": "T-Shirt",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 1,
-    "image": "/placeholder-10007.png",
+    "image": "/placeholder-10007.svg",
     "description": "T-Shirt",
     "sku": "10007"
   },
   {
     "id": "10008",
     "name": "T-Shirt men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 31.93,
-    "image": "/placeholder-10008.png",
+    "image": "/placeholder-10008.svg",
     "description": "T-Shirt men",
     "sku": "10008"
   },
@@ -95,16 +95,16 @@ export const products: Product[] = [
     "name": "Halle - 40/24 32.",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-1013.png",
+    "image": "/placeholder-1013.svg",
     "description": "Halle - 40/24 32.",
     "sku": "1013"
   },
   {
     "id": "108",
     "name": "Kronenleine, color wei, & 10",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 3.2,
-    "image": "/placeholder-108.png",
+    "image": "/placeholder-108.svg",
     "description": "Kronenleine, color wei, & 10",
     "sku": "108"
   },
@@ -113,34 +113,34 @@ export const products: Product[] = [
     "name": "ENG _Airpusher 60/24",
     "category": "Parts",
     "price": 280,
-    "image": "/placeholder-11051.png",
+    "image": "/placeholder-11051.svg",
     "description": "ENG _Airpusher 60/24",
     "sku": "11051"
   },
   {
     "id": "15161",
     "name": "ENG_Ventilleine color red, 2 8",
-    "category": "Parts",
+    "category": "Burner",
     "price": 5.3,
-    "image": "/placeholder-15161.png",
+    "image": "/placeholder-15161.svg",
     "description": "ENG_Ventilleine color red, 2 8",
     "sku": "15161"
   },
   {
     "id": "15184",
     "name": "ENG_Ventilleine color weit, @ 8",
-    "category": "Parts",
+    "category": "Burner",
     "price": 1,
-    "image": "/placeholder-15184.png",
+    "image": "/placeholder-15184.svg",
     "description": "ENG_Ventilleine color weit, @ 8",
     "sku": "15184"
   },
   {
     "id": "210141",
     "name": "Apparel item men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 4,
-    "image": "/placeholder-210141.png",
+    "image": "/placeholder-210141.svg",
     "description": "Apparel item men",
     "sku": "210141"
   },
@@ -149,25 +149,25 @@ export const products: Product[] = [
     "name": "Doppeinippel, 1/4, Edelstah!",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-2109.png",
+    "image": "/placeholder-2109.svg",
     "description": "Doppeinippel, 1/4, Edelstah!",
     "sku": "2109"
   },
   {
     "id": "25414",
     "name": "ENG_Brennerstitze, @ 32 mm, 1",
-    "category": "Parts",
+    "category": "Burner",
     "price": 41.3,
-    "image": "/placeholder-25414.png",
+    "image": "/placeholder-25414.svg",
     "description": "ENG_Brennerstitze, @ 32 mm, 1",
     "sku": "25414"
   },
   {
     "id": "2548",
     "name": "Piezo-Zundeinheit FB 6 / FB 7",
-    "category": "Parts",
+    "category": "Burner",
     "price": 78.4,
-    "image": "/placeholder-2548.png",
+    "image": "/placeholder-2548.svg",
     "description": "Piezo-Zundeinheit FB 6 / FB 7",
     "sku": "2548"
   },
@@ -176,16 +176,16 @@ export const products: Product[] = [
     "name": "GriffstOck FB 7 with",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-25868.png",
+    "image": "/placeholder-25868.svg",
     "description": "GriffstOck FB 7 with",
     "sku": "25868"
   },
   {
     "id": "2645",
     "name": "Sientbrenner (Kuhbrenner)",
-    "category": "Parts",
+    "category": "Burner",
     "price": 98.6,
-    "image": "/placeholder-2645.png",
+    "image": "/placeholder-2645.svg",
     "description": "Sientbrenner (Kuhbrenner)",
     "sku": "2645"
   },
@@ -194,16 +194,16 @@ export const products: Product[] = [
     "name": "ENG _Halteblech Lufteinstrémring",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-26471.png",
+    "image": "/placeholder-26471.svg",
     "description": "ENG _Halteblech Lufteinstrémring",
     "sku": "26471"
   },
   {
     "id": "28771",
     "name": "ENG_Fahrventil O-Ring (unten",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4.1,
-    "image": "/placeholder-28771.png",
+    "image": "/placeholder-28771.svg",
     "description": "ENG_Fahrventil O-Ring (unten",
     "sku": "28771"
   },
@@ -212,7 +212,7 @@ export const products: Product[] = [
     "name": "ENG_Schnortscheibe, Edetstahl",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-326164.png",
+    "image": "/placeholder-326164.svg",
     "description": "ENG_Schnortscheibe, Edetstahl",
     "sku": "326164"
   },
@@ -221,16 +221,16 @@ export const products: Product[] = [
     "name": "Eng_VA 50/S",
     "category": "Parts",
     "price": 1750,
-    "image": "/placeholder-40001.png",
+    "image": "/placeholder-40001.svg",
     "description": "Eng_VA 50/S",
     "sku": "40001"
   },
   {
     "id": "41104",
     "name": "ENG-Flaschengurte VA 100",
-    "category": "Parts",
+    "category": "Tank",
     "price": 24,
-    "image": "/placeholder-41104.png",
+    "image": "/placeholder-41104.svg",
     "description": "ENG-Flaschengurte VA 100",
     "sku": "41104"
   },
@@ -239,7 +239,7 @@ export const products: Product[] = [
     "name": "REGO-Flachdichtung (auBen)",
     "category": "Parts",
     "price": 1.48,
-    "image": "/placeholder-4527.png",
+    "image": "/placeholder-4527.svg",
     "description": "REGO-Flachdichtung (auBen)",
     "sku": "4527"
   },
@@ -248,7 +248,7 @@ export const products: Product[] = [
     "name": "ENG_Schutzhille VA 70 (with",
     "category": "Parts",
     "price": 1,
-    "image": "/placeholder-45441.png",
+    "image": "/placeholder-45441.svg",
     "description": "ENG_Schutzhille VA 70 (with",
     "sku": "45441"
   },
@@ -257,7 +257,7 @@ export const products: Product[] = [
     "name": "Edelstahl-Verstarkung",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-4578.png",
+    "image": "/placeholder-4578.svg",
     "description": "Edelstahl-Verstarkung",
     "sku": "4578"
   },
@@ -266,16 +266,16 @@ export const products: Product[] = [
     "name": "ENG_Schmutzfilter",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-45791.png",
+    "image": "/placeholder-45791.svg",
     "description": "ENG_Schmutzfilter",
     "sku": "45791"
   },
   {
     "id": "4585",
     "name": "AUTOGAS Flachdichtung",
-    "category": "Parts",
+    "category": "Tank",
     "price": 2.05,
-    "image": "/placeholder-4585.png",
+    "image": "/placeholder-4585.svg",
     "description": "AUTOGAS Flachdichtung",
     "sku": "4585"
   },
@@ -284,7 +284,7 @@ export const products: Product[] = [
     "name": "Ersatzschiauch for T-Verbindung",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-4587.png",
+    "image": "/placeholder-4587.svg",
     "description": "Ersatzschiauch for T-Verbindung",
     "sku": "4587"
   },
@@ -293,7 +293,7 @@ export const products: Product[] = [
     "name": "FB 7 -3-fach",
     "category": "Parts",
     "price": 11250,
-    "image": "/placeholder-52001.png",
+    "image": "/placeholder-52001.svg",
     "description": "FB 7 -3-fach",
     "sku": "52001"
   },
@@ -302,7 +302,7 @@ export const products: Product[] = [
     "name": "ENG_LORCH Stopfen",
     "category": "Parts",
     "price": 41,
-    "image": "/placeholder-525161.png",
+    "image": "/placeholder-525161.svg",
     "description": "ENG_LORCH Stopfen",
     "sku": "525161"
   },
@@ -311,7 +311,7 @@ export const products: Product[] = [
     "name": "ENG_Geblasehalterung",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-56001.png",
+    "image": "/placeholder-56001.svg",
     "description": "ENG_Geblasehalterung",
     "sku": "56001"
   },
@@ -320,7 +320,7 @@ export const products: Product[] = [
     "name": "Rammpuffer Geblase",
     "category": "Parts",
     "price": 15.6,
-    "image": "/placeholder-5601.png",
+    "image": "/placeholder-5601.svg",
     "description": "Rammpuffer Geblase",
     "sku": "5601"
   },
@@ -329,25 +329,25 @@ export const products: Product[] = [
     "name": "ENG_Nylonschiene, 25 x 15 mm",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-58021.png",
+    "image": "/placeholder-58021.svg",
     "description": "ENG_Nylonschiene, 25 x 15 mm",
     "sku": "58021"
   },
   {
     "id": "641014",
     "name": "ENG -Flaschengurte VA 70",
-    "category": "Parts",
+    "category": "Tank",
     "price": 4,
-    "image": "/placeholder-641014.png",
+    "image": "/placeholder-641014.svg",
     "description": "ENG -Flaschengurte VA 70",
     "sku": "641014"
   },
   {
     "id": "65061",
     "name": "ENG_Bodenring",
-    "category": "Parts",
+    "category": "Basket",
     "price": 4,
-    "image": "/placeholder-65061.png",
+    "image": "/placeholder-65061.svg",
     "description": "ENG_Bodenring",
     "sku": "65061"
   },
@@ -356,7 +356,7 @@ export const products: Product[] = [
     "name": "ENG_Dyna-Qip-Stecker",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-82161.png",
+    "image": "/placeholder-82161.svg",
     "description": "ENG_Dyna-Qip-Stecker",
     "sku": "82161"
   },
@@ -365,7 +365,7 @@ export const products: Product[] = [
     "name": "ENG_Nylon-U-Schiene, . m",
     "category": "Parts",
     "price": 27.5,
-    "image": "/placeholder-85231.png",
+    "image": "/placeholder-85231.svg",
     "description": "ENG_Nylon-U-Schiene, . m",
     "sku": "85231"
   },
@@ -374,7 +374,7 @@ export const products: Product[] = [
     "name": "labor costs - Nahwerkstatt",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-9000.png",
+    "image": "/placeholder-9000.svg",
     "description": "labor costs - Nahwerkstatt",
     "sku": "9000"
   },
@@ -383,7 +383,7 @@ export const products: Product[] = [
     "name": "ENG_Lohnkosten Nahwerkstatt",
     "category": "Parts",
     "price": 78,
-    "image": "/placeholder-90001.png",
+    "image": "/placeholder-90001.svg",
     "description": "ENG_Lohnkosten Nahwerkstatt",
     "sku": "90001"
   },
@@ -392,7 +392,7 @@ export const products: Product[] = [
     "name": "labor costs - workshop",
     "category": "Parts",
     "price": 89,
-    "image": "/placeholder-9001.png",
+    "image": "/placeholder-9001.svg",
     "description": "labor costs - workshop",
     "sku": "9001"
   },
@@ -401,7 +401,7 @@ export const products: Product[] = [
     "name": "ENG_Lohnkosten workshop",
     "category": "Parts",
     "price": 89,
-    "image": "/placeholder-90011.png",
+    "image": "/placeholder-90011.svg",
     "description": "ENG_Lohnkosten workshop",
     "sku": "90011"
   },
@@ -410,7 +410,7 @@ export const products: Product[] = [
     "name": "labor costs - technician",
     "category": "Parts",
     "price": 114,
-    "image": "/placeholder-9002.png",
+    "image": "/placeholder-9002.svg",
     "description": "labor costs - technician",
     "sku": "9002"
   },
@@ -419,7 +419,7 @@ export const products: Product[] = [
     "name": "ENG _Lohnkosten technician",
     "category": "Parts",
     "price": 114,
-    "image": "/placeholder-90021.png",
+    "image": "/placeholder-90021.svg",
     "description": "ENG _Lohnkosten technician",
     "sku": "90021"
   },
@@ -428,7 +428,7 @@ export const products: Product[] = [
     "name": "labor costs - Priifer",
     "category": "Parts",
     "price": 114,
-    "image": "/placeholder-9003.png",
+    "image": "/placeholder-9003.svg",
     "description": "labor costs - Priifer",
     "sku": "9003"
   },
@@ -437,7 +437,7 @@ export const products: Product[] = [
     "name": "ENG_Lohnkosten Prafer",
     "category": "Parts",
     "price": 114,
-    "image": "/placeholder-90031.png",
+    "image": "/placeholder-90031.svg",
     "description": "ENG_Lohnkosten Prafer",
     "sku": "90031"
   },
@@ -446,7 +446,7 @@ export const products: Product[] = [
     "name": "labor costs - Schweiger",
     "category": "Parts",
     "price": 155,
-    "image": "/placeholder-9004.png",
+    "image": "/placeholder-9004.svg",
     "description": "labor costs - Schweiger",
     "sku": "9004"
   },
@@ -455,16 +455,16 @@ export const products: Product[] = [
     "name": "ENG_Lohnkosten Schweier",
     "category": "Parts",
     "price": 185,
-    "image": "/placeholder-90041.png",
+    "image": "/placeholder-90041.svg",
     "description": "ENG_Lohnkosten Schweier",
     "sku": "90041"
   },
   {
     "id": "9005",
     "name": "propane gas",
-    "category": "Parts",
+    "category": "Tank",
     "price": 1,
-    "image": "/placeholder-9005.png",
+    "image": "/placeholder-9005.svg",
     "description": "propane gas",
     "sku": "9005"
   },
@@ -473,7 +473,7 @@ export const products: Product[] = [
     "name": "shipping costs",
     "category": "Parts",
     "price": 1,
-    "image": "/placeholder-9007.png",
+    "image": "/placeholder-9007.svg",
     "description": "shipping costs",
     "sku": "9007"
   },
@@ -482,25 +482,25 @@ export const products: Product[] = [
     "name": "ENG_Versandkosten",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-90071.png",
+    "image": "/placeholder-90071.svg",
     "description": "ENG_Versandkosten",
     "sku": "90071"
   },
   {
     "id": "9008",
     "name": "labor costs - Korbflechterei",
-    "category": "Parts",
+    "category": "Basket",
     "price": 4,
-    "image": "/placeholder-9008.png",
+    "image": "/placeholder-9008.svg",
     "description": "labor costs - Korbflechterei",
     "sku": "9008"
   },
   {
     "id": "90081",
     "name": "ENG_Lohnkosten - Korbflechterei",
-    "category": "Parts",
+    "category": "Basket",
     "price": 89,
-    "image": "/placeholder-90081.png",
+    "image": "/placeholder-90081.svg",
     "description": "ENG_Lohnkosten - Korbflechterei",
     "sku": "90081"
   },
@@ -509,16 +509,16 @@ export const products: Product[] = [
     "name": "‘Schrumpfschiauch 8-2",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-9009.png",
+    "image": "/placeholder-9009.svg",
     "description": "‘Schrumpfschiauch 8-2",
     "sku": "9009"
   },
   {
     "id": "9010",
     "name": "Schrumpfschlauch 12-3",
-    "category": "Parts",
+    "category": "Burner",
     "price": 16.3,
-    "image": "/placeholder-9010.png",
+    "image": "/placeholder-9010.svg",
     "description": "Schrumpfschlauch 12-3",
     "sku": "9010"
   },
@@ -527,25 +527,25 @@ export const products: Product[] = [
     "name": "ENG_Schrumpfschiauch 12-3",
     "category": "Parts",
     "price": 16.3,
-    "image": "/placeholder-90101.png",
+    "image": "/placeholder-90101.svg",
     "description": "ENG_Schrumpfschiauch 12-3",
     "sku": "90101"
   },
   {
     "id": "9011",
     "name": "‘Schrumpfschlauch 22-6",
-    "category": "Parts",
+    "category": "Burner",
     "price": 19.3,
-    "image": "/placeholder-9011.png",
+    "image": "/placeholder-9011.svg",
     "description": "‘Schrumpfschlauch 22-6",
     "sku": "9011"
   },
   {
     "id": "9012",
     "name": "‘Schrumpfschlauch 34-7",
-    "category": "Parts",
+    "category": "Burner",
     "price": 24.6,
-    "image": "/placeholder-9012.png",
+    "image": "/placeholder-9012.svg",
     "description": "‘Schrumpfschlauch 34-7",
     "sku": "9012"
   },
@@ -554,7 +554,7 @@ export const products: Product[] = [
     "name": "Provision",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-9013.png",
+    "image": "/placeholder-9013.svg",
     "description": "Provision",
     "sku": "9013"
   },
@@ -563,7 +563,7 @@ export const products: Product[] = [
     "name": "Umbau/Austausch des",
     "category": "Parts",
     "price": 24,
-    "image": "/placeholder-9014.png",
+    "image": "/placeholder-9014.svg",
     "description": "Umbau/Austausch des",
     "sku": "9014"
   },
@@ -572,7 +572,7 @@ export const products: Product[] = [
     "name": "ENG_Umbau/Austasch des",
     "category": "Parts",
     "price": 21,
-    "image": "/placeholder-90141.png",
+    "image": "/placeholder-90141.svg",
     "description": "ENG_Umbau/Austasch des",
     "sku": "90141"
   },
@@ -581,7 +581,7 @@ export const products: Product[] = [
     "name": "Hangematte",
     "category": "Parts",
     "price": 74.79,
-    "image": "/placeholder-9015.png",
+    "image": "/placeholder-9015.svg",
     "description": "Hangematte",
     "sku": "9015"
   },
@@ -590,7 +590,7 @@ export const products: Product[] = [
     "name": "ENG_Hangematte",
     "category": "Parts",
     "price": 74.79,
-    "image": "/placeholder-90151.png",
+    "image": "/placeholder-90151.svg",
     "description": "ENG_Hangematte",
     "sku": "90151"
   },
@@ -599,7 +599,7 @@ export const products: Product[] = [
     "name": "Bordbuch",
     "category": "Parts",
     "price": 24.75,
-    "image": "/placeholder-9016.png",
+    "image": "/placeholder-9016.svg",
     "description": "Bordbuch",
     "sku": "9016"
   },
@@ -608,7 +608,7 @@ export const products: Product[] = [
     "name": "ENG_Bordbuch",
     "category": "Parts",
     "price": 24.75,
-    "image": "/placeholder-90161.png",
+    "image": "/placeholder-90161.svg",
     "description": "ENG_Bordbuch",
     "sku": "90161"
   },
@@ -617,7 +617,7 @@ export const products: Product[] = [
     "name": "‘Schutzhille for Bordbuch, color",
     "category": "Parts",
     "price": 16.5,
-    "image": "/placeholder-9017.png",
+    "image": "/placeholder-9017.svg",
     "description": "‘Schutzhille for Bordbuch, color",
     "sku": "9017"
   },
@@ -626,7 +626,7 @@ export const products: Product[] = [
     "name": "ENG_Schutzhille flr Bordbuch",
     "category": "Parts",
     "price": 16.5,
-    "image": "/placeholder-90171.png",
+    "image": "/placeholder-90171.svg",
     "description": "ENG_Schutzhille flr Bordbuch",
     "sku": "90171"
   },
@@ -635,25 +635,25 @@ export const products: Product[] = [
     "name": "Flug- und Wartungshandbuch",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-9018.png",
+    "image": "/placeholder-9018.svg",
     "description": "Flug- und Wartungshandbuch",
     "sku": "9018"
   },
   {
     "id": "90181",
     "name": "Apparel item men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 0,
-    "image": "/placeholder-90181.png",
+    "image": "/placeholder-90181.svg",
     "description": "Apparel item men",
     "sku": "90181"
   },
   {
     "id": "9019",
     "name": "Apparel item men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 21.8,
-    "image": "/placeholder-9019.png",
+    "image": "/placeholder-9019.svg",
     "description": "Apparel item men",
     "sku": "9019"
   },
@@ -662,7 +662,7 @@ export const products: Product[] = [
     "name": "Marker",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-9020.png",
+    "image": "/placeholder-9020.svg",
     "description": "Marker",
     "sku": "9020"
   },
@@ -671,7 +671,7 @@ export const products: Product[] = [
     "name": "ENG_Marker",
     "category": "Parts",
     "price": 24,
-    "image": "/placeholder-90201.png",
+    "image": "/placeholder-90201.svg",
     "description": "ENG_Marker",
     "sku": "90201"
   },
@@ -680,7 +680,7 @@ export const products: Product[] = [
     "name": "Werbematerial (Aufkleber)",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-9021.png",
+    "image": "/placeholder-9021.svg",
     "description": "Werbematerial (Aufkleber)",
     "sku": "9021"
   },
@@ -689,25 +689,25 @@ export const products: Product[] = [
     "name": "ENG_Werbematerial (Aufkleber)",
     "category": "Parts",
     "price": 1,
-    "image": "/placeholder-90211.png",
+    "image": "/placeholder-90211.svg",
     "description": "ENG_Werbematerial (Aufkleber)",
     "sku": "90211"
   },
   {
     "id": "9022",
     "name": "Apparel item men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 33,
-    "image": "/placeholder-9022.png",
+    "image": "/placeholder-9022.svg",
     "description": "Apparel item men",
     "sku": "9022"
   },
   {
     "id": "90221",
     "name": "Apparel item men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 33,
-    "image": "/placeholder-90221.png",
+    "image": "/placeholder-90221.svg",
     "description": "Apparel item men",
     "sku": "90221"
   },
@@ -716,7 +716,7 @@ export const products: Product[] = [
     "name": "Handling Halle",
     "category": "Parts",
     "price": 89,
-    "image": "/placeholder-9023.png",
+    "image": "/placeholder-9023.svg",
     "description": "Handling Halle",
     "sku": "9023"
   },
@@ -725,7 +725,7 @@ export const products: Product[] = [
     "name": "Ballontransporter - Anhanger",
     "category": "Parts",
     "price": 12080,
-    "image": "/placeholder-A5000.png",
+    "image": "/placeholder-A5000.svg",
     "description": "Ballontransporter - Anhanger",
     "sku": "A5000"
   },
@@ -734,7 +734,7 @@ export const products: Product[] = [
     "name": "ENG_Ballontransporter Anhanger",
     "category": "Parts",
     "price": 12050,
-    "image": "/placeholder-A50001.png",
+    "image": "/placeholder-A50001.svg",
     "description": "ENG_Ballontransporter Anhanger",
     "sku": "A50001"
   },
@@ -743,7 +743,7 @@ export const products: Product[] = [
     "name": "Folierung des Anhangers",
     "category": "Parts",
     "price": 3100,
-    "image": "/placeholder-A5001.png",
+    "image": "/placeholder-A5001.svg",
     "description": "Folierung des Anhangers",
     "sku": "A5001"
   },
@@ -752,43 +752,43 @@ export const products: Product[] = [
     "name": "Befestigungsmaterial",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-A5503.png",
+    "image": "/placeholder-A5503.svg",
     "description": "Befestigungsmaterial",
     "sku": "A5503"
   },
   {
     "id": "A5504",
     "name": "Rammpuffer Korb",
-    "category": "Parts",
+    "category": "Basket",
     "price": 15.6,
-    "image": "/placeholder-A5504.png",
+    "image": "/placeholder-A5504.svg",
     "description": "Rammpuffer Korb",
     "sku": "A5504"
   },
   {
     "id": "A5505",
     "name": "Halterung far Gasflasche inkl.",
-    "category": "Parts",
+    "category": "Tank",
     "price": 4,
-    "image": "/placeholder-A5505.png",
+    "image": "/placeholder-A5505.svg",
     "description": "Halterung far Gasflasche inkl.",
     "sku": "A5505"
   },
   {
     "id": "A5506",
     "name": "Bodenring fiir Gasflasche inkl.",
-    "category": "Parts",
+    "category": "Basket",
     "price": 41.3,
-    "image": "/placeholder-A5506.png",
+    "image": "/placeholder-A5506.svg",
     "description": "Bodenring fiir Gasflasche inkl.",
     "sku": "A5506"
   },
   {
     "id": "A55081",
     "name": "ENG_Halterung for Gasflasche",
-    "category": "Parts",
+    "category": "Tank",
     "price": 133.7,
-    "image": "/placeholder-A55081.png",
+    "image": "/placeholder-A55081.svg",
     "description": "ENG_Halterung for Gasflasche",
     "sku": "A55081"
   },
@@ -797,7 +797,7 @@ export const products: Product[] = [
     "name": "ENG_Schlo8 fiir GFK-Haube (with",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-A55091.png",
+    "image": "/placeholder-A55091.svg",
     "description": "ENG_Schlo8 fiir GFK-Haube (with",
     "sku": "A55091"
   },
@@ -806,7 +806,7 @@ export const products: Product[] = [
     "name": "Nylonschiene, 25 x 15 mm",
     "category": "Parts",
     "price": 18.1,
-    "image": "/placeholder-A502.png",
+    "image": "/placeholder-A502.svg",
     "description": "Nylonschiene, 25 x 15 mm",
     "sku": "A502"
   },
@@ -815,7 +815,7 @@ export const products: Product[] = [
     "name": "Feuerldscher fOr Anh&nger, 6 kg",
     "category": "Parts",
     "price": 230,
-    "image": "/placeholder-A5100.png",
+    "image": "/placeholder-A5100.svg",
     "description": "Feuerldscher fOr Anh&nger, 6 kg",
     "sku": "A5100"
   },
@@ -824,7 +824,7 @@ export const products: Product[] = [
     "name": "ENG_Feuerléscher f. Anhanger",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-A51001.png",
+    "image": "/placeholder-A51001.svg",
     "description": "ENG_Feuerléscher f. Anhanger",
     "sku": "A51001"
   },
@@ -833,7 +833,7 @@ export const products: Product[] = [
     "name": "Untertegkeil with Halter",
     "category": "Parts",
     "price": 5.1,
-    "image": "/placeholder-A521.png",
+    "image": "/placeholder-A521.svg",
     "description": "Untertegkeil with Halter",
     "sku": "A521"
   },
@@ -842,7 +842,7 @@ export const products: Product[] = [
     "name": "Geblasehalterung zur Montage im",
     "category": "Parts",
     "price": 198,
-    "image": "/placeholder-A5500.png",
+    "image": "/placeholder-A5500.svg",
     "description": "Geblasehalterung zur Montage im",
     "sku": "A5500"
   },
@@ -851,7 +851,7 @@ export const products: Product[] = [
     "name": "ENG_Rammpuffer Geblase",
     "category": "Parts",
     "price": 15.6,
-    "image": "/placeholder-A55011.png",
+    "image": "/placeholder-A55011.svg",
     "description": "ENG_Rammpuffer Geblase",
     "sku": "A55011"
   },
@@ -860,7 +860,7 @@ export const products: Product[] = [
     "name": "Kantenschutzprofl (Dichtung) far",
     "category": "Parts",
     "price": 8.9,
-    "image": "/placeholder-A5513.png",
+    "image": "/placeholder-A5513.svg",
     "description": "Kantenschutzprofl (Dichtung) far",
     "sku": "A5513"
   },
@@ -869,16 +869,16 @@ export const products: Product[] = [
     "name": "Rammputfer",
     "category": "Parts",
     "price": 13.5,
-    "image": "/placeholder-A552.png",
+    "image": "/placeholder-A552.svg",
     "description": "Rammputfer",
     "sku": "A552"
   },
   {
     "id": "A56041",
     "name": "ENG_Rammpuffer Korb",
-    "category": "Parts",
+    "category": "Basket",
     "price": 4,
-    "image": "/placeholder-A56041.png",
+    "image": "/placeholder-A56041.svg",
     "description": "ENG_Rammpuffer Korb",
     "sku": "A56041"
   },
@@ -887,7 +887,7 @@ export const products: Product[] = [
     "name": "Feuerldscher, 6 kg",
     "category": "Parts",
     "price": 168,
-    "image": "/placeholder-A5610.png",
+    "image": "/placeholder-A5610.svg",
     "description": "Feuerldscher, 6 kg",
     "sku": "A5610"
   },
@@ -896,7 +896,7 @@ export const products: Product[] = [
     "name": "Loftungsgitter",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-A5612.png",
+    "image": "/placeholder-A5612.svg",
     "description": "Loftungsgitter",
     "sku": "A5612"
   },
@@ -905,7 +905,7 @@ export const products: Product[] = [
     "name": "ENG_Nylonschiene, 36 x 15 mm",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-A58071.png",
+    "image": "/placeholder-A58071.svg",
     "description": "ENG_Nylonschiene, 36 x 15 mm",
     "sku": "A58071"
   },
@@ -914,7 +914,7 @@ export const products: Product[] = [
     "name": "Schutzbox fur 6-kg Feuerléscher",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-A6620.png",
+    "image": "/placeholder-A6620.svg",
     "description": "Schutzbox fur 6-kg Feuerléscher",
     "sku": "A6620"
   },
@@ -923,7 +923,7 @@ export const products: Product[] = [
     "name": "Follerung des Anhangers",
     "category": "Parts",
     "price": 3200,
-    "image": "/placeholder-A8002.png",
+    "image": "/placeholder-A8002.svg",
     "description": "Follerung des Anhangers",
     "sku": "A8002"
   },
@@ -932,7 +932,7 @@ export const products: Product[] = [
     "name": "ENG_Rammpuffer",
     "category": "Parts",
     "price": 13.5,
-    "image": "/placeholder-A85221.png",
+    "image": "/placeholder-A85221.svg",
     "description": "ENG_Rammpuffer",
     "sku": "A85221"
   },
@@ -941,7 +941,7 @@ export const products: Product[] = [
     "name": "Nylon-U-Schiene, m lang",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-A8523.png",
+    "image": "/placeholder-A8523.svg",
     "description": "Nylon-U-Schiene, m lang",
     "sku": "A8523"
   },
@@ -950,7 +950,7 @@ export const products: Product[] = [
     "name": "Griffe far Anhianger",
     "category": "Parts",
     "price": 2.5,
-    "image": "/placeholder-AS518.png",
+    "image": "/placeholder-AS518.svg",
     "description": "Griffe far Anhianger",
     "sku": "AS518"
   },
@@ -959,7 +959,7 @@ export const products: Product[] = [
     "name": "Edeistahi-Rechteckrohr, 30 x 15",
     "category": "Parts",
     "price": 41,
-    "image": "/placeholder-AS519.png",
+    "image": "/placeholder-AS519.svg",
     "description": "Edeistahi-Rechteckrohr, 30 x 15",
     "sku": "AS519"
   },
@@ -968,7 +968,7 @@ export const products: Product[] = [
     "name": "Dichtmasse (Sikaflex)",
     "category": "Parts",
     "price": 24.95,
-    "image": "/placeholder-AS617.png",
+    "image": "/placeholder-AS617.svg",
     "description": "Dichtmasse (Sikaflex)",
     "sku": "AS617"
   },
@@ -977,7 +977,7 @@ export const products: Product[] = [
     "name": "ENG_FB 7 double",
     "category": "Parts",
     "price": 7180,
-    "image": "/placeholder-B20001.png",
+    "image": "/placeholder-B20001.svg",
     "description": "ENG_FB 7 double",
     "sku": "B20001"
   },
@@ -986,7 +986,7 @@ export const products: Product[] = [
     "name": "ENG_FB 7 triple",
     "category": "Parts",
     "price": 41250,
-    "image": "/placeholder-B20011.png",
+    "image": "/placeholder-B20011.svg",
     "description": "ENG_FB 7 triple",
     "sku": "B20011"
   },
@@ -995,34 +995,34 @@ export const products: Product[] = [
     "name": "ENG_FB 7 quad 13",
     "category": "Parts",
     "price": 41,
-    "image": "/placeholder-B20021.png",
+    "image": "/placeholder-B20021.svg",
     "description": "ENG_FB 7 quad 13",
     "sku": "B20021"
   },
   {
     "id": "B21001",
     "name": "ENG_Burner frame 2er",
-    "category": "Parts",
+    "category": "Burner",
     "price": 950,
-    "image": "/placeholder-B21001.png",
+    "image": "/placeholder-B21001.svg",
     "description": "ENG_Burner frame 2er",
     "sku": "B21001"
   },
   {
     "id": "B2101",
     "name": "Apparel item men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 1250,
-    "image": "/placeholder-B2101.png",
+    "image": "/placeholder-B2101.svg",
     "description": "Apparel item men",
     "sku": "B2101"
   },
   {
     "id": "B2102",
     "name": "Apparel item men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 1650,
-    "image": "/placeholder-B2102.png",
+    "image": "/placeholder-B2102.svg",
     "description": "Apparel item men",
     "sku": "B2102"
   },
@@ -1031,34 +1031,34 @@ export const products: Product[] = [
     "name": "ENG_Spannstifte, 2,5 x 12",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B21051.png",
+    "image": "/placeholder-B21051.svg",
     "description": "ENG_Spannstifte, 2,5 x 12",
     "sku": "B21051"
   },
   {
     "id": "B2119",
     "name": "‘Schutzhaube fur Brenner, color",
-    "category": "Parts",
+    "category": "Burner",
     "price": 250,
-    "image": "/placeholder-B2119.png",
+    "image": "/placeholder-B2119.svg",
     "description": "‘Schutzhaube fur Brenner, color",
     "sku": "B2119"
   },
   {
     "id": "B2120",
     "name": "Apparel item men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 1250,
-    "image": "/placeholder-B2120.png",
+    "image": "/placeholder-B2120.svg",
     "description": "Apparel item men",
     "sku": "B2120"
   },
   {
     "id": "B25001",
     "name": "ENG _Brennerwartung 2fach",
-    "category": "Parts",
+    "category": "Burner",
     "price": 0,
-    "image": "/placeholder-B25001.png",
+    "image": "/placeholder-B25001.svg",
     "description": "ENG _Brennerwartung 2fach",
     "sku": "B25001"
   },
@@ -1067,34 +1067,34 @@ export const products: Product[] = [
     "name": "Innenteil (Buchse) 2u",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2501.png",
+    "image": "/placeholder-B2501.svg",
     "description": "Innenteil (Buchse) 2u",
     "sku": "B2501"
   },
   {
     "id": "B2503",
     "name": "Fahrventil O-Ring (groB, 38 x 2,5)",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B2503.png",
+    "image": "/placeholder-B2503.svg",
     "description": "Fahrventil O-Ring (groB, 38 x 2,5)",
     "sku": "B2503"
   },
   {
     "id": "B25031",
     "name": "ENG_Fahrventil O-Ring (groB, 38",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B25031.png",
+    "image": "/placeholder-B25031.svg",
     "description": "ENG_Fahrventil O-Ring (groB, 38",
     "sku": "B25031"
   },
   {
     "id": "B2504",
     "name": "Sillkon O-Ring fiir Fahrventil",
-    "category": "Parts",
+    "category": "Burner",
     "price": 1,
-    "image": "/placeholder-B2504.png",
+    "image": "/placeholder-B2504.svg",
     "description": "Sillkon O-Ring fiir Fahrventil",
     "sku": "B2504"
   },
@@ -1103,7 +1103,7 @@ export const products: Product[] = [
     "name": "O-Ring for",
     "category": "Parts",
     "price": 1.05,
-    "image": "/placeholder-B2505.png",
+    "image": "/placeholder-B2505.svg",
     "description": "O-Ring for",
     "sku": "B2505"
   },
@@ -1112,7 +1112,7 @@ export const products: Product[] = [
     "name": "ENG_O-Ring fair",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B25051.png",
+    "image": "/placeholder-B25051.svg",
     "description": "ENG_O-Ring fair",
     "sku": "B25051"
   },
@@ -1121,16 +1121,16 @@ export const products: Product[] = [
     "name": "ENG_O-Ring far Start- oder/und",
     "category": "Parts",
     "price": 0.9,
-    "image": "/placeholder-B25061.png",
+    "image": "/placeholder-B25061.svg",
     "description": "ENG_O-Ring far Start- oder/und",
     "sku": "B25061"
   },
   {
     "id": "B2508",
     "name": "Dichtungssatz far Doppelbrenner",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B2508.png",
+    "image": "/placeholder-B2508.svg",
     "description": "Dichtungssatz far Doppelbrenner",
     "sku": "B2508"
   },
@@ -1139,7 +1139,7 @@ export const products: Product[] = [
     "name": "ENG_Dichtungssatz fir",
     "category": "Parts",
     "price": 15,
-    "image": "/placeholder-B25081.png",
+    "image": "/placeholder-B25081.svg",
     "description": "ENG_Dichtungssatz fir",
     "sku": "B25081"
   },
@@ -1148,25 +1148,25 @@ export const products: Product[] = [
     "name": "O-Ring 20 x1 178",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2509.png",
+    "image": "/placeholder-B2509.svg",
     "description": "O-Ring 20 x1 178",
     "sku": "B2509"
   },
   {
     "id": "B2510",
     "name": "Dichtungssatz far Doppelbrenner",
-    "category": "Parts",
+    "category": "Burner",
     "price": 12.5,
-    "image": "/placeholder-B2510.png",
+    "image": "/placeholder-B2510.svg",
     "description": "Dichtungssatz far Doppelbrenner",
     "sku": "B2510"
   },
   {
     "id": "B2512",
     "name": "Apparel item men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 4,
-    "image": "/placeholder-B2512.png",
+    "image": "/placeholder-B2512.svg",
     "description": "Apparel item men",
     "sku": "B2512"
   },
@@ -1175,7 +1175,7 @@ export const products: Product[] = [
     "name": "LORCH Stecker",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2513.png",
+    "image": "/placeholder-B2513.svg",
     "description": "LORCH Stecker",
     "sku": "B2513"
   },
@@ -1184,7 +1184,7 @@ export const products: Product[] = [
     "name": "Druckfeder, groB, & 40 mm",
     "category": "Parts",
     "price": 5.5,
-    "image": "/placeholder-B2514.png",
+    "image": "/placeholder-B2514.svg",
     "description": "Druckfeder, groB, & 40 mm",
     "sku": "B2514"
   },
@@ -1193,7 +1193,7 @@ export const products: Product[] = [
     "name": "Arretierboizen",
     "category": "Parts",
     "price": 13.5,
-    "image": "/placeholder-B2515.png",
+    "image": "/placeholder-B2515.svg",
     "description": "Arretierboizen",
     "sku": "B2515"
   },
@@ -1202,7 +1202,7 @@ export const products: Product[] = [
     "name": "LORCH Stopfen, Schutzkappe",
     "category": "Parts",
     "price": 5.8,
-    "image": "/placeholder-B2516.png",
+    "image": "/placeholder-B2516.svg",
     "description": "LORCH Stopfen, Schutzkappe",
     "sku": "B2516"
   },
@@ -1211,16 +1211,16 @@ export const products: Product[] = [
     "name": "Spiralspannstift",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2517.png",
+    "image": "/placeholder-B2517.svg",
     "description": "Spiralspannstift",
     "sku": "B2517"
   },
   {
     "id": "B2518",
     "name": "Ziindelektrode far Piezozonder",
-    "category": "Parts",
+    "category": "Burner",
     "price": 19.2,
-    "image": "/placeholder-B2518.png",
+    "image": "/placeholder-B2518.svg",
     "description": "Ziindelektrode far Piezozonder",
     "sku": "B2518"
   },
@@ -1229,7 +1229,7 @@ export const products: Product[] = [
     "name": "ENG_Zindelektrode fur",
     "category": "Parts",
     "price": 19.2,
-    "image": "/placeholder-B25181.png",
+    "image": "/placeholder-B25181.svg",
     "description": "ENG_Zindelektrode fur",
     "sku": "B25181"
   },
@@ -1238,7 +1238,7 @@ export const products: Product[] = [
     "name": "Splint 1,6 x 32",
     "category": "Parts",
     "price": 0.4,
-    "image": "/placeholder-B2519.png",
+    "image": "/placeholder-B2519.svg",
     "description": "Splint 1,6 x 32",
     "sku": "B2519"
   },
@@ -1247,7 +1247,7 @@ export const products: Product[] = [
     "name": "Zylinderkopfschraube MS x 45",
     "category": "Parts",
     "price": 1.64,
-    "image": "/placeholder-B2520.png",
+    "image": "/placeholder-B2520.svg",
     "description": "Zylinderkopfschraube MS x 45",
     "sku": "B2520"
   },
@@ -1256,7 +1256,7 @@ export const products: Product[] = [
     "name": "Zylinderkopfschraube M6 X 20",
     "category": "Parts",
     "price": 1.1,
-    "image": "/placeholder-B2524.png",
+    "image": "/placeholder-B2524.svg",
     "description": "Zylinderkopfschraube M6 X 20",
     "sku": "B2524"
   },
@@ -1265,7 +1265,7 @@ export const products: Product[] = [
     "name": "Senkkopfschraube 10x80, V2A",
     "category": "Parts",
     "price": 3.22,
-    "image": "/placeholder-B2526.png",
+    "image": "/placeholder-B2526.svg",
     "description": "Senkkopfschraube 10x80, V2A",
     "sku": "B2526"
   },
@@ -1274,7 +1274,7 @@ export const products: Product[] = [
     "name": "Zylinderkopfschraube, A2, DIN",
     "category": "Parts",
     "price": 2.4,
-    "image": "/placeholder-B2530.png",
+    "image": "/placeholder-B2530.svg",
     "description": "Zylinderkopfschraube, A2, DIN",
     "sku": "B2530"
   },
@@ -1283,7 +1283,7 @@ export const products: Product[] = [
     "name": "Zylinderkopfschraube, A2, DIN",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2531.png",
+    "image": "/placeholder-B2531.svg",
     "description": "Zylinderkopfschraube, A2, DIN",
     "sku": "B2531"
   },
@@ -1292,7 +1292,7 @@ export const products: Product[] = [
     "name": "ENG_Zylinderkopfschraube, A2",
     "category": "Parts",
     "price": 0.9,
-    "image": "/placeholder-B253141.png",
+    "image": "/placeholder-B253141.svg",
     "description": "ENG_Zylinderkopfschraube, A2",
     "sku": "B253141"
   },
@@ -1301,7 +1301,7 @@ export const products: Product[] = [
     "name": "Zylinderkopfschraube. A2, DIN",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2532.png",
+    "image": "/placeholder-B2532.svg",
     "description": "Zylinderkopfschraube. A2, DIN",
     "sku": "B2532"
   },
@@ -1310,34 +1310,34 @@ export const products: Product[] = [
     "name": "Zylinderkopfschraube, A2, DIN",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2533.png",
+    "image": "/placeholder-B2533.svg",
     "description": "Zylinderkopfschraube, A2, DIN",
     "sku": "B2533"
   },
   {
     "id": "B2534",
     "name": "Fidssiggasschlauch FB 6 / FB 7",
-    "category": "Parts",
+    "category": "Burner",
     "price": 78,
-    "image": "/placeholder-B2534.png",
+    "image": "/placeholder-B2534.svg",
     "description": "Fidssiggasschlauch FB 6 / FB 7",
     "sku": "B2534"
   },
   {
     "id": "B25351",
     "name": "Apparel item men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 4,
-    "image": "/placeholder-B25351.png",
+    "image": "/placeholder-B25351.svg",
     "description": "Apparel item men",
     "sku": "B25351"
   },
   {
     "id": "B2536",
     "name": "Knickschutz Fidssiggasschlauch",
-    "category": "Parts",
+    "category": "Burner",
     "price": 14.4,
-    "image": "/placeholder-B2536.png",
+    "image": "/placeholder-B2536.svg",
     "description": "Knickschutz Fidssiggasschlauch",
     "sku": "B2536"
   },
@@ -1346,7 +1346,7 @@ export const products: Product[] = [
     "name": "ENG_Knickschutz",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B25361.png",
+    "image": "/placeholder-B25361.svg",
     "description": "ENG_Knickschutz",
     "sku": "B25361"
   },
@@ -1355,7 +1355,7 @@ export const products: Product[] = [
     "name": "Knickschutz",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2537.png",
+    "image": "/placeholder-B2537.svg",
     "description": "Knickschutz",
     "sku": "B2537"
   },
@@ -1364,61 +1364,61 @@ export const products: Product[] = [
     "name": "ENG_Knickschutz",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B25371.png",
+    "image": "/placeholder-B25371.svg",
     "description": "ENG_Knickschutz",
     "sku": "B25371"
   },
   {
     "id": "B2538",
     "name": "Fidssiggasschiauch FB V",
-    "category": "Parts",
+    "category": "Tank",
     "price": 64.4,
-    "image": "/placeholder-B2538.png",
+    "image": "/placeholder-B2538.svg",
     "description": "Fidssiggasschiauch FB V",
     "sku": "B2538"
   },
   {
     "id": "B25381",
     "name": "ENG_Fldssiggasschlauch FB V",
-    "category": "Parts",
+    "category": "Burner",
     "price": 64.4,
-    "image": "/placeholder-B25381.png",
+    "image": "/placeholder-B25381.svg",
     "description": "ENG_Fldssiggasschlauch FB V",
     "sku": "B25381"
   },
   {
     "id": "B25391",
     "name": "Apparel item men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 4,
-    "image": "/placeholder-B25391.png",
+    "image": "/placeholder-B25391.svg",
     "description": "Apparel item men",
     "sku": "B25391"
   },
   {
     "id": "B25401",
     "name": "ENG_Brennerstitze, @ 25 mm, 4",
-    "category": "Parts",
+    "category": "Burner",
     "price": 29.6,
-    "image": "/placeholder-B25401.png",
+    "image": "/placeholder-B25401.svg",
     "description": "ENG_Brennerstitze, @ 25 mm, 4",
     "sku": "B25401"
   },
   {
     "id": "B2541",
     "name": "Brennerstiitze, 2 32mm, 1m",
-    "category": "Parts",
+    "category": "Burner",
     "price": 41.3,
-    "image": "/placeholder-B2541.png",
+    "image": "/placeholder-B2541.svg",
     "description": "Brennerstiitze, 2 32mm, 1m",
     "sku": "B2541"
   },
   {
     "id": "B25421",
     "name": "ENG_Brennerstitze, 3 25 oder",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B25421.png",
+    "image": "/placeholder-B25421.svg",
     "description": "ENG_Brennerstitze, 3 25 oder",
     "sku": "B25421"
   },
@@ -1427,7 +1427,7 @@ export const products: Product[] = [
     "name": "ENG_Verbindungsstiick FB 6",
     "category": "Parts",
     "price": 149,
-    "image": "/placeholder-B25451.png",
+    "image": "/placeholder-B25451.svg",
     "description": "ENG_Verbindungsstiick FB 6",
     "sku": "B25451"
   },
@@ -1436,25 +1436,25 @@ export const products: Product[] = [
     "name": "Halteblech Lufteinstramring",
     "category": "Parts",
     "price": 22.5,
-    "image": "/placeholder-B2547.png",
+    "image": "/placeholder-B2547.svg",
     "description": "Halteblech Lufteinstramring",
     "sku": "B2547"
   },
   {
     "id": "B25481",
     "name": "ENG_Piezo-Zindeinheit FB 6 /",
-    "category": "Parts",
+    "category": "Burner",
     "price": 41,
-    "image": "/placeholder-B25481.png",
+    "image": "/placeholder-B25481.svg",
     "description": "ENG_Piezo-Zindeinheit FB 6 /",
     "sku": "B25481"
   },
   {
     "id": "B25501",
     "name": "ENG_Manometer fur Brenner FE",
-    "category": "Parts",
+    "category": "Burner",
     "price": 59.3,
-    "image": "/placeholder-B25501.png",
+    "image": "/placeholder-B25501.svg",
     "description": "ENG_Manometer fur Brenner FE",
     "sku": "B25501"
   },
@@ -1463,7 +1463,7 @@ export const products: Product[] = [
     "name": "ENG_Auengewindenippel, Nr.",
     "category": "Parts",
     "price": 5.65,
-    "image": "/placeholder-B25531.png",
+    "image": "/placeholder-B25531.svg",
     "description": "ENG_Auengewindenippel, Nr.",
     "sku": "B25531"
   },
@@ -1472,7 +1472,7 @@ export const products: Product[] = [
     "name": "ENG_Schutzstopfen fir",
     "category": "Parts",
     "price": 5.25,
-    "image": "/placeholder-B25561.png",
+    "image": "/placeholder-B25561.svg",
     "description": "ENG_Schutzstopfen fir",
     "sku": "B25561"
   },
@@ -1481,16 +1481,16 @@ export const products: Product[] = [
     "name": "ENG_REGO 7141F",
     "category": "Parts",
     "price": 74.8,
-    "image": "/placeholder-B25571.png",
+    "image": "/placeholder-B25571.svg",
     "description": "ENG_REGO 7141F",
     "sku": "B25571"
   },
   {
     "id": "B2559",
     "name": "‘Austausch Kit Brenner TM 62",
-    "category": "Parts",
+    "category": "Burner",
     "price": 37.8,
-    "image": "/placeholder-B2559.png",
+    "image": "/placeholder-B2559.svg",
     "description": "‘Austausch Kit Brenner TM 62",
     "sku": "B2559"
   },
@@ -1499,34 +1499,34 @@ export const products: Product[] = [
     "name": "ENG_Austausch Kit fr TM 62",
     "category": "Parts",
     "price": 37.8,
-    "image": "/placeholder-B25591.png",
+    "image": "/placeholder-B25591.svg",
     "description": "ENG_Austausch Kit fr TM 62",
     "sku": "B25591"
   },
   {
     "id": "B25601",
     "name": "Apparel item men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 148.65,
-    "image": "/placeholder-B25601.png",
+    "image": "/placeholder-B25601.svg",
     "description": "Apparel item men",
     "sku": "B25601"
   },
   {
     "id": "B2564",
     "name": "Fahrventilspindel-Einheit, inkl.",
-    "category": "Parts",
+    "category": "Burner",
     "price": 102.4,
-    "image": "/placeholder-B2564.png",
+    "image": "/placeholder-B2564.svg",
     "description": "Fahrventilspindel-Einheit, inkl.",
     "sku": "B2564"
   },
   {
     "id": "B25641",
     "name": "ENG_Fahrventilspinde!-Einheit",
-    "category": "Parts",
+    "category": "Burner",
     "price": 102.4,
-    "image": "/placeholder-B25641.png",
+    "image": "/placeholder-B25641.svg",
     "description": "ENG_Fahrventilspinde!-Einheit",
     "sku": "B25641"
   },
@@ -1535,34 +1535,34 @@ export const products: Product[] = [
     "name": "ENG_Gewindestift, M3, for",
     "category": "Parts",
     "price": 11.2,
-    "image": "/placeholder-B25651.png",
+    "image": "/placeholder-B25651.svg",
     "description": "ENG_Gewindestift, M3, for",
     "sku": "B25651"
   },
   {
     "id": "B2566",
     "name": "Flossiggasschtaueh (Nr.",
-    "category": "Parts",
+    "category": "Tank",
     "price": 8.3,
-    "image": "/placeholder-B2566.png",
+    "image": "/placeholder-B2566.svg",
     "description": "Flossiggasschtaueh (Nr.",
     "sku": "B2566"
   },
   {
     "id": "B25661",
     "name": "ENG_Flissiggasschlauch (Nr.",
-    "category": "Parts",
+    "category": "Burner",
     "price": 8.3,
-    "image": "/placeholder-B25661.png",
+    "image": "/placeholder-B25661.svg",
     "description": "ENG_Flissiggasschlauch (Nr.",
     "sku": "B25661"
   },
   {
     "id": "B2567",
     "name": "Winkelstick (Gasphase) flr FB V",
-    "category": "Parts",
+    "category": "Tank",
     "price": 4,
-    "image": "/placeholder-B2567.png",
+    "image": "/placeholder-B2567.svg",
     "description": "Winkelstick (Gasphase) flr FB V",
     "sku": "B2567"
   },
@@ -1571,7 +1571,7 @@ export const products: Product[] = [
     "name": "Pressfassung, Nr. 602.1000",
     "category": "Parts",
     "price": 2.2,
-    "image": "/placeholder-B2569.png",
+    "image": "/placeholder-B2569.svg",
     "description": "Pressfassung, Nr. 602.1000",
     "sku": "B2569"
   },
@@ -1580,7 +1580,7 @@ export const products: Product[] = [
     "name": "ENG_Pressfassung, Nr.",
     "category": "Parts",
     "price": 2.2,
-    "image": "/placeholder-B25691.png",
+    "image": "/placeholder-B25691.svg",
     "description": "ENG_Pressfassung, Nr.",
     "sku": "B25691"
   },
@@ -1589,7 +1589,7 @@ export const products: Product[] = [
     "name": "‘Aufengewindenippel, Nr. 420",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2570.png",
+    "image": "/placeholder-B2570.svg",
     "description": "‘Aufengewindenippel, Nr. 420",
     "sku": "B2570"
   },
@@ -1598,7 +1598,7 @@ export const products: Product[] = [
     "name": "ENG_Augengewindenippel, Nr.",
     "category": "Parts",
     "price": 4.2,
-    "image": "/placeholder-B25704.png",
+    "image": "/placeholder-B25704.svg",
     "description": "ENG_Augengewindenippel, Nr.",
     "sku": "B25704"
   },
@@ -1607,16 +1607,16 @@ export const products: Product[] = [
     "name": "Dichtungssatz for",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2571.png",
+    "image": "/placeholder-B2571.svg",
     "description": "Dichtungssatz for",
     "sku": "B2571"
   },
   {
     "id": "B2572",
     "name": "Membrane fir Magnetventil fir",
-    "category": "Parts",
+    "category": "Burner",
     "price": 21.5,
-    "image": "/placeholder-B2572.png",
+    "image": "/placeholder-B2572.svg",
     "description": "Membrane fir Magnetventil fir",
     "sku": "B2572"
   },
@@ -1625,34 +1625,34 @@ export const products: Product[] = [
     "name": "ENG_Druckfeder, klein, DN 7,3, 490",
     "category": "Parts",
     "price": 1,
-    "image": "/placeholder-B25731.png",
+    "image": "/placeholder-B25731.svg",
     "description": "ENG_Druckfeder, klein, DN 7,3, 490",
     "sku": "B25731"
   },
   {
     "id": "B2575",
     "name": "Gasdruckfeder without Ausiésekopt",
-    "category": "Parts",
+    "category": "Tank",
     "price": 106,
-    "image": "/placeholder-B2575.png",
+    "image": "/placeholder-B2575.svg",
     "description": "Gasdruckfeder without Ausiésekopt",
     "sku": "B2575"
   },
   {
     "id": "B25751",
     "name": "ENG_Gasdruckfeder without",
-    "category": "Parts",
+    "category": "Tank",
     "price": 106,
-    "image": "/placeholder-B25751.png",
+    "image": "/placeholder-B25751.svg",
     "description": "ENG_Gasdruckfeder without",
     "sku": "B25751"
   },
   {
     "id": "B2576",
     "name": "Auslésekopf fr Gasdruckfeder",
-    "category": "Parts",
+    "category": "Tank",
     "price": 10.8,
-    "image": "/placeholder-B2576.png",
+    "image": "/placeholder-B2576.svg",
     "description": "Auslésekopf fr Gasdruckfeder",
     "sku": "B2576"
   },
@@ -1661,34 +1661,34 @@ export const products: Product[] = [
     "name": "ENG_Auslésekopf fur",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B25761.png",
+    "image": "/placeholder-B25761.svg",
     "description": "ENG_Auslésekopf fur",
     "sku": "B25761"
   },
   {
     "id": "B25781",
     "name": "ENG_Fahrventil O-Ring (oben",
-    "category": "Parts",
+    "category": "Burner",
     "price": 0.85,
-    "image": "/placeholder-B25781.png",
+    "image": "/placeholder-B25781.svg",
     "description": "ENG_Fahrventil O-Ring (oben",
     "sku": "B25781"
   },
   {
     "id": "B2579",
     "name": "Fahrventi-Oberteil far Brenner FB.",
-    "category": "Parts",
+    "category": "Burner",
     "price": 42.5,
-    "image": "/placeholder-B2579.png",
+    "image": "/placeholder-B2579.svg",
     "description": "Fahrventi-Oberteil far Brenner FB.",
     "sku": "B2579"
   },
   {
     "id": "B25791",
     "name": "ENG_Fahrventil-Oberteil for",
-    "category": "Parts",
+    "category": "Burner",
     "price": 42.6,
-    "image": "/placeholder-B25791.png",
+    "image": "/placeholder-B25791.svg",
     "description": "ENG_Fahrventil-Oberteil for",
     "sku": "B25791"
   },
@@ -1697,16 +1697,16 @@ export const products: Product[] = [
     "name": "ENG _Schneidringverschraubung",
     "category": "Parts",
     "price": 14.1,
-    "image": "/placeholder-B25801.png",
+    "image": "/placeholder-B25801.svg",
     "description": "ENG _Schneidringverschraubung",
     "sku": "B25801"
   },
   {
     "id": "B2585",
     "name": "Bedienhebel fiir Brenner",
-    "category": "Parts",
+    "category": "Burner",
     "price": 0,
-    "image": "/placeholder-B2585.png",
+    "image": "/placeholder-B2585.svg",
     "description": "Bedienhebel fiir Brenner",
     "sku": "B2585"
   },
@@ -1715,34 +1715,34 @@ export const products: Product[] = [
     "name": "Griffstick for FB 7 with",
     "category": "Parts",
     "price": 273,
-    "image": "/placeholder-B2589.png",
+    "image": "/placeholder-B2589.svg",
     "description": "Griffstick for FB 7 with",
     "sku": "B2589"
   },
   {
     "id": "B2590",
     "name": "‘Armaturenblock (Ventilblock)",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B2590.png",
+    "image": "/placeholder-B2590.svg",
     "description": "‘Armaturenblock (Ventilblock)",
     "sku": "B2590"
   },
   {
     "id": "B2594",
     "name": "Griffleistenhalterung fir Brenner",
-    "category": "Parts",
+    "category": "Burner",
     "price": 0,
-    "image": "/placeholder-B2594.png",
+    "image": "/placeholder-B2594.svg",
     "description": "Griffleistenhalterung fir Brenner",
     "sku": "B2594"
   },
   {
     "id": "B25941",
     "name": "ENG_Fldssiggasschlauch FB 6 /",
-    "category": "Parts",
+    "category": "Burner",
     "price": 78,
-    "image": "/placeholder-B25941.png",
+    "image": "/placeholder-B25941.svg",
     "description": "ENG_Fldssiggasschlauch FB 6 /",
     "sku": "B25941"
   },
@@ -1751,7 +1751,7 @@ export const products: Product[] = [
     "name": "AuBengewindenippel",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-B2596.png",
+    "image": "/placeholder-B2596.svg",
     "description": "AuBengewindenippel",
     "sku": "B2596"
   },
@@ -1760,16 +1760,16 @@ export const products: Product[] = [
     "name": "ENG_AuSengewindenippel, Nr.",
     "category": "Parts",
     "price": 8.1,
-    "image": "/placeholder-B25981.png",
+    "image": "/placeholder-B25981.svg",
     "description": "ENG_AuSengewindenippel, Nr.",
     "sku": "B25981"
   },
   {
     "id": "B2600",
     "name": "Brennerwartung - 2-fach",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B2600.png",
+    "image": "/placeholder-B2600.svg",
     "description": "Brennerwartung - 2-fach",
     "sku": "B2600"
   },
@@ -1778,16 +1778,16 @@ export const products: Product[] = [
     "name": "Zylinderkopfschraube, A2, DIN",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-B2601.png",
+    "image": "/placeholder-B2601.svg",
     "description": "Zylinderkopfschraube, A2, DIN",
     "sku": "B2601"
   },
   {
     "id": "B26021",
     "name": "ENG_Brennerwartung_Bumer",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B26021.png",
+    "image": "/placeholder-B26021.svg",
     "description": "ENG_Brennerwartung_Bumer",
     "sku": "B26021"
   },
@@ -1796,7 +1796,7 @@ export const products: Product[] = [
     "name": "Verschluss-Schraube, Messing",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-B2612.png",
+    "image": "/placeholder-B2612.svg",
     "description": "Verschluss-Schraube, Messing",
     "sku": "B2612"
   },
@@ -1805,7 +1805,7 @@ export const products: Product[] = [
     "name": "Schnorrscheibe, Edelstahl, @ 4",
     "category": "Parts",
     "price": 0.2,
-    "image": "/placeholder-B2614.png",
+    "image": "/placeholder-B2614.svg",
     "description": "Schnorrscheibe, Edelstahl, @ 4",
     "sku": "B2614"
   },
@@ -1814,7 +1814,7 @@ export const products: Product[] = [
     "name": "ENG_Schnorrscheibe, Edelstahi",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B26141.png",
+    "image": "/placeholder-B26141.svg",
     "description": "ENG_Schnorrscheibe, Edelstahi",
     "sku": "B26141"
   },
@@ -1823,7 +1823,7 @@ export const products: Product[] = [
     "name": "Gewindebotzen fur",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2615.png",
+    "image": "/placeholder-B2615.svg",
     "description": "Gewindebotzen fur",
     "sku": "B2615"
   },
@@ -1832,7 +1832,7 @@ export const products: Product[] = [
     "name": "‘Schnorrscheibe, Edelstahl, 5",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2616.png",
+    "image": "/placeholder-B2616.svg",
     "description": "‘Schnorrscheibe, Edelstahl, 5",
     "sku": "B2616"
   },
@@ -1841,7 +1841,7 @@ export const products: Product[] = [
     "name": "TEMA-Stecker 13006",
     "category": "Parts",
     "price": 9.75,
-    "image": "/placeholder-B2619.png",
+    "image": "/placeholder-B2619.svg",
     "description": "TEMA-Stecker 13006",
     "sku": "B2619"
   },
@@ -1850,7 +1850,7 @@ export const products: Product[] = [
     "name": "Schneidringverschraubung",
     "category": "Parts",
     "price": 1,
-    "image": "/placeholder-B2620.png",
+    "image": "/placeholder-B2620.svg",
     "description": "Schneidringverschraubung",
     "sku": "B2620"
   },
@@ -1859,7 +1859,7 @@ export const products: Product[] = [
     "name": "‘Schneidringverschraubung",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2621.png",
+    "image": "/placeholder-B2621.svg",
     "description": "‘Schneidringverschraubung",
     "sku": "B2621"
   },
@@ -1868,7 +1868,7 @@ export const products: Product[] = [
     "name": "Silontexschiauch far 820",
     "category": "Parts",
     "price": 1,
-    "image": "/placeholder-B2623.png",
+    "image": "/placeholder-B2623.svg",
     "description": "Silontexschiauch far 820",
     "sku": "B2623"
   },
@@ -1877,34 +1877,34 @@ export const products: Product[] = [
     "name": "Edelstalrohr 36 x 2, nahtlos",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2624.png",
+    "image": "/placeholder-B2624.svg",
     "description": "Edelstalrohr 36 x 2, nahtlos",
     "sku": "B2624"
   },
   {
     "id": "B2626",
     "name": "T-Stiick fiir Brenner FB 6",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B2626.png",
+    "image": "/placeholder-B2626.svg",
     "description": "T-Stiick fiir Brenner FB 6",
     "sku": "B2626"
   },
   {
     "id": "B2633",
     "name": "Brennerspirale (Kuhbrennerseite)",
-    "category": "Parts",
+    "category": "Burner",
     "price": 820,
-    "image": "/placeholder-B2633.png",
+    "image": "/placeholder-B2633.svg",
     "description": "Brennerspirale (Kuhbrennerseite)",
     "sku": "B2633"
   },
   {
     "id": "B26331",
     "name": "ENG_Brennerspirale €",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B26331.png",
+    "image": "/placeholder-B26331.svg",
     "description": "ENG_Brennerspirale €",
     "sku": "B26331"
   },
@@ -1913,7 +1913,7 @@ export const products: Product[] = [
     "name": "ENG_Pertinax-Scheibe, 25x8,5x3",
     "category": "Parts",
     "price": 12,
-    "image": "/placeholder-B26351.png",
+    "image": "/placeholder-B26351.svg",
     "description": "ENG_Pertinax-Scheibe, 25x8,5x3",
     "sku": "B26351"
   },
@@ -1922,7 +1922,7 @@ export const products: Product[] = [
     "name": "Pertinax-Scheibe, 25%8,6x9",
     "category": "Parts",
     "price": 14,
-    "image": "/placeholder-B2636.png",
+    "image": "/placeholder-B2636.svg",
     "description": "Pertinax-Scheibe, 25%8,6x9",
     "sku": "B2636"
   },
@@ -1931,7 +1931,7 @@ export const products: Product[] = [
     "name": "ENG_Pertinax-Scheibe, 25x8,5x9",
     "category": "Parts",
     "price": 14,
-    "image": "/placeholder-B26361.png",
+    "image": "/placeholder-B26361.svg",
     "description": "ENG_Pertinax-Scheibe, 25x8,5x9",
     "sku": "B26361"
   },
@@ -1940,7 +1940,7 @@ export const products: Product[] = [
     "name": "Aluscheibe, 25x8,5%6",
     "category": "Parts",
     "price": 15.4,
-    "image": "/placeholder-B2637.png",
+    "image": "/placeholder-B2637.svg",
     "description": "Aluscheibe, 25x8,5%6",
     "sku": "B2637"
   },
@@ -1949,7 +1949,7 @@ export const products: Product[] = [
     "name": "ENG_Dichtungssatz fur",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B26381.png",
+    "image": "/placeholder-B26381.svg",
     "description": "ENG_Dichtungssatz fur",
     "sku": "B26381"
   },
@@ -1958,25 +1958,25 @@ export const products: Product[] = [
     "name": "ENG_Aufengewindenippel",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-B26391.png",
+    "image": "/placeholder-B26391.svg",
     "description": "ENG_Aufengewindenippel",
     "sku": "B26391"
   },
   {
     "id": "B26411",
     "name": "Apparel item men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 159,
-    "image": "/placeholder-B26411.png",
+    "image": "/placeholder-B26411.svg",
     "description": "Apparel item men",
     "sku": "B26411"
   },
   {
     "id": "B2642",
     "name": "Piezoztinder FB 6 / FB 7",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B2642.png",
+    "image": "/placeholder-B2642.svg",
     "description": "Piezoztinder FB 6 / FB 7",
     "sku": "B2642"
   },
@@ -1985,34 +1985,34 @@ export const products: Product[] = [
     "name": "ENG_O-Ring, 13x 1,5",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B26431.png",
+    "image": "/placeholder-B26431.svg",
     "description": "ENG_O-Ring, 13x 1,5",
     "sku": "B26431"
   },
   {
     "id": "B2644",
     "name": "O-Ring, 31 x 2 (Startventil)",
-    "category": "Parts",
+    "category": "Burner",
     "price": 1.85,
-    "image": "/placeholder-B2644.png",
+    "image": "/placeholder-B2644.svg",
     "description": "O-Ring, 31 x 2 (Startventil)",
     "sku": "B2644"
   },
   {
     "id": "B26441",
     "name": "ENG_O-Ring, 31 x 2 (Startventil)",
-    "category": "Parts",
+    "category": "Burner",
     "price": 1.85,
-    "image": "/placeholder-B26441.png",
+    "image": "/placeholder-B26441.svg",
     "description": "ENG_O-Ring, 31 x 2 (Startventil)",
     "sku": "B26441"
   },
   {
     "id": "B26451",
     "name": "ENG_Silentbrenner (Kuhbrenner)",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B26451.png",
+    "image": "/placeholder-B26451.svg",
     "description": "ENG_Silentbrenner (Kuhbrenner)",
     "sku": "B26451"
   },
@@ -2021,7 +2021,7 @@ export const products: Product[] = [
     "name": "ENG_Dichtungssatz for",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B26461.png",
+    "image": "/placeholder-B26461.svg",
     "description": "ENG_Dichtungssatz for",
     "sku": "B26461"
   },
@@ -2030,7 +2030,7 @@ export const products: Product[] = [
     "name": "Dichtungssatz far",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2647.png",
+    "image": "/placeholder-B2647.svg",
     "description": "Dichtungssatz far",
     "sku": "B2647"
   },
@@ -2039,25 +2039,25 @@ export const products: Product[] = [
     "name": "ENG_Dichtungssatz far",
     "category": "Parts",
     "price": 23.75,
-    "image": "/placeholder-B26471.png",
+    "image": "/placeholder-B26471.svg",
     "description": "ENG_Dichtungssatz far",
     "sku": "B26471"
   },
   {
     "id": "B2648",
     "name": "Brennerspirale (Startbrenner)",
-    "category": "Parts",
+    "category": "Burner",
     "price": 1020,
-    "image": "/placeholder-B2648.png",
+    "image": "/placeholder-B2648.svg",
     "description": "Brennerspirale (Startbrenner)",
     "sku": "B2648"
   },
   {
     "id": "B2650",
     "name": "Filllschlauch (Nr. 4054.1000)",
-    "category": "Parts",
+    "category": "Burner",
     "price": 8.2,
-    "image": "/placeholder-B2650.png",
+    "image": "/placeholder-B2650.svg",
     "description": "Filllschlauch (Nr. 4054.1000)",
     "sku": "B2650"
   },
@@ -2066,7 +2066,7 @@ export const products: Product[] = [
     "name": "Kupferringe 3/8",
     "category": "Parts",
     "price": 0.9,
-    "image": "/placeholder-B2651.png",
+    "image": "/placeholder-B2651.svg",
     "description": "Kupferringe 3/8",
     "sku": "B2651"
   },
@@ -2075,7 +2075,7 @@ export const products: Product[] = [
     "name": "‘Schneidringverschraubung",
     "category": "Parts",
     "price": 8.9,
-    "image": "/placeholder-B2652.png",
+    "image": "/placeholder-B2652.svg",
     "description": "‘Schneidringverschraubung",
     "sku": "B2652"
   },
@@ -2084,7 +2084,7 @@ export const products: Product[] = [
     "name": "ENG_Schneidringverschraubung",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B26521.png",
+    "image": "/placeholder-B26521.svg",
     "description": "ENG_Schneidringverschraubung",
     "sku": "B26521"
   },
@@ -2093,7 +2093,7 @@ export const products: Product[] = [
     "name": "ENG Zulaufrohr, Edelstahl",
     "category": "Parts",
     "price": 6,
-    "image": "/placeholder-B26531.png",
+    "image": "/placeholder-B26531.svg",
     "description": "ENG Zulaufrohr, Edelstahl",
     "sku": "B26531"
   },
@@ -2102,7 +2102,7 @@ export const products: Product[] = [
     "name": "ENG_Kugelhahn",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B26541.png",
+    "image": "/placeholder-B26541.svg",
     "description": "ENG_Kugelhahn",
     "sku": "B26541"
   },
@@ -2111,7 +2111,7 @@ export const products: Product[] = [
     "name": "Schnellentleerungssystem-Halter",
     "category": "Parts",
     "price": 73,
-    "image": "/placeholder-B2655.png",
+    "image": "/placeholder-B2655.svg",
     "description": "Schnellentleerungssystem-Halter",
     "sku": "B2655"
   },
@@ -2120,7 +2120,7 @@ export const products: Product[] = [
     "name": "Blindstopfen 1/8",
     "category": "Parts",
     "price": 2.3,
-    "image": "/placeholder-B2656.png",
+    "image": "/placeholder-B2656.svg",
     "description": "Blindstopfen 1/8",
     "sku": "B2656"
   },
@@ -2129,7 +2129,7 @@ export const products: Product[] = [
     "name": "Manometerglas",
     "category": "Parts",
     "price": 1.25,
-    "image": "/placeholder-B2657.png",
+    "image": "/placeholder-B2657.svg",
     "description": "Manometerglas",
     "sku": "B2657"
   },
@@ -2138,70 +2138,70 @@ export const products: Product[] = [
     "name": "ENG_Manometerglas",
     "category": "Parts",
     "price": 1.25,
-    "image": "/placeholder-B26571.png",
+    "image": "/placeholder-B26571.svg",
     "description": "ENG_Manometerglas",
     "sku": "B26571"
   },
   {
     "id": "B26581",
     "name": "ENG_Brennertopf fir FBG",
-    "category": "Parts",
+    "category": "Burner",
     "price": 258,
-    "image": "/placeholder-B26581.png",
+    "image": "/placeholder-B26581.svg",
     "description": "ENG_Brennertopf fir FBG",
     "sku": "B26581"
   },
   {
     "id": "B26591",
     "name": "ENG_Kuhbrennerventieinheit",
-    "category": "Parts",
+    "category": "Burner",
     "price": 155,
-    "image": "/placeholder-B26591.png",
+    "image": "/placeholder-B26591.svg",
     "description": "ENG_Kuhbrennerventieinheit",
     "sku": "B26591"
   },
   {
     "id": "B26601",
     "name": "ENG_Startbrenneventileinheit",
-    "category": "Parts",
+    "category": "Burner",
     "price": 155,
-    "image": "/placeholder-B26601.png",
+    "image": "/placeholder-B26601.svg",
     "description": "ENG_Startbrenneventileinheit",
     "sku": "B26601"
   },
   {
     "id": "B2661",
     "name": "Fahrventil O-Ring (16,5 x 1,5)",
-    "category": "Parts",
+    "category": "Burner",
     "price": 1,
-    "image": "/placeholder-B2661.png",
+    "image": "/placeholder-B2661.svg",
     "description": "Fahrventil O-Ring (16,5 x 1,5)",
     "sku": "B2661"
   },
   {
     "id": "B26611",
     "name": "ENG_Fahrventil O-Ring (16,5 x",
-    "category": "Parts",
+    "category": "Burner",
     "price": 1.65,
-    "image": "/placeholder-B26611.png",
+    "image": "/placeholder-B26611.svg",
     "description": "ENG_Fahrventil O-Ring (16,5 x",
     "sku": "B26611"
   },
   {
     "id": "B26621",
     "name": "ENG_Fahrventil O-Ring (20 x 1,5)",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B26621.png",
+    "image": "/placeholder-B26621.svg",
     "description": "ENG_Fahrventil O-Ring (20 x 1,5)",
     "sku": "B26621"
   },
   {
     "id": "B26631",
     "name": "ENG_Fahrventil O-Ring (3 x 1,5)",
-    "category": "Parts",
+    "category": "Burner",
     "price": 0.75,
-    "image": "/placeholder-B26631.png",
+    "image": "/placeholder-B26631.svg",
     "description": "ENG_Fahrventil O-Ring (3 x 1,5)",
     "sku": "B26631"
   },
@@ -2210,7 +2210,7 @@ export const products: Product[] = [
     "name": "ENG_Dichtungssatz for",
     "category": "Parts",
     "price": 22.5,
-    "image": "/placeholder-B26641.png",
+    "image": "/placeholder-B26641.svg",
     "description": "ENG_Dichtungssatz for",
     "sku": "B26641"
   },
@@ -2219,7 +2219,7 @@ export const products: Product[] = [
     "name": "‘O-Ring (Kammer, FB V) (20x 2)",
     "category": "Parts",
     "price": 1.9,
-    "image": "/placeholder-B2666.png",
+    "image": "/placeholder-B2666.svg",
     "description": "‘O-Ring (Kammer, FB V) (20x 2)",
     "sku": "B2666"
   },
@@ -2228,16 +2228,16 @@ export const products: Product[] = [
     "name": "ENG_O-Ring (Kammer, FB V)",
     "category": "Parts",
     "price": 1.9,
-    "image": "/placeholder-B26661.png",
+    "image": "/placeholder-B26661.svg",
     "description": "ENG_O-Ring (Kammer, FB V)",
     "sku": "B26661"
   },
   {
     "id": "B2669",
     "name": "Kuhbrennerventileinnelt",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B2669.png",
+    "image": "/placeholder-B2669.svg",
     "description": "Kuhbrennerventileinnelt",
     "sku": "B2669"
   },
@@ -2246,16 +2246,16 @@ export const products: Product[] = [
     "name": "Zulautrohr, Edelstahl, @ 4x1",
     "category": "Parts",
     "price": 6,
-    "image": "/placeholder-B2683.png",
+    "image": "/placeholder-B2683.svg",
     "description": "Zulautrohr, Edelstahl, @ 4x1",
     "sku": "B2683"
   },
   {
     "id": "B26881",
     "name": "Apparel item men",
-    "category": "Parts",
+    "category": "Clothing",
     "price": 4,
-    "image": "/placeholder-B26881.png",
+    "image": "/placeholder-B26881.svg",
     "description": "Apparel item men",
     "sku": "B26881"
   },
@@ -2264,16 +2264,16 @@ export const products: Product[] = [
     "name": "ENG_Aluminiumhiilse",
     "category": "Parts",
     "price": 22.6,
-    "image": "/placeholder-B28491.png",
+    "image": "/placeholder-B28491.svg",
     "description": "ENG_Aluminiumhiilse",
     "sku": "B28491"
   },
   {
     "id": "B2862",
     "name": "Fahrventil O-Ring (20 x 1,5)",
-    "category": "Parts",
+    "category": "Burner",
     "price": 1.7,
-    "image": "/placeholder-B2862.png",
+    "image": "/placeholder-B2862.svg",
     "description": "Fahrventil O-Ring (20 x 1,5)",
     "sku": "B2862"
   },
@@ -2282,7 +2282,7 @@ export const products: Product[] = [
     "name": "ENG_Pressfassung, Nr.",
     "category": "Parts",
     "price": 2,
-    "image": "/placeholder-B28621.png",
+    "image": "/placeholder-B28621.svg",
     "description": "ENG_Pressfassung, Nr.",
     "sku": "B28621"
   },
@@ -2291,16 +2291,16 @@ export const products: Product[] = [
     "name": "Druckfeder, klein, DN 7,3",
     "category": "Parts",
     "price": 4.9,
-    "image": "/placeholder-B2873.png",
+    "image": "/placeholder-B2873.svg",
     "description": "Druckfeder, klein, DN 7,3",
     "sku": "B2873"
   },
   {
     "id": "B2877",
     "name": "Fahrventil O-Ring (unten, 410",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B2877.png",
+    "image": "/placeholder-B2877.svg",
     "description": "Fahrventil O-Ring (unten, 410",
     "sku": "B2877"
   },
@@ -2309,7 +2309,7 @@ export const products: Product[] = [
     "name": "‘Winkelverschraubung far",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-B2104.png",
+    "image": "/placeholder-B2104.svg",
     "description": "‘Winkelverschraubung far",
     "sku": "B2104"
   },
@@ -2318,7 +2318,7 @@ export const products: Product[] = [
     "name": "Spannstite, 2,5 x 12",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2105.png",
+    "image": "/placeholder-B2105.svg",
     "description": "Spannstite, 2,5 x 12",
     "sku": "B2105"
   },
@@ -2327,7 +2327,7 @@ export const products: Product[] = [
     "name": "Muffe 1/4",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-B2110.png",
+    "image": "/placeholder-B2110.svg",
     "description": "Muffe 1/4",
     "sku": "B2110"
   },
@@ -2336,7 +2336,7 @@ export const products: Product[] = [
     "name": "Edetstahi-Seil, Durchmesser 3,5",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-B2113.png",
+    "image": "/placeholder-B2113.svg",
     "description": "Edetstahi-Seil, Durchmesser 3,5",
     "sku": "B2113"
   },
@@ -2345,7 +2345,7 @@ export const products: Product[] = [
     "name": "Starthtfe-Vortichtung far",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2117.png",
+    "image": "/placeholder-B2117.svg",
     "description": "Starthtfe-Vortichtung far",
     "sku": "B2117"
   },
@@ -2354,7 +2354,7 @@ export const products: Product[] = [
     "name": "ENG_Hitzeschild far",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2164.png",
+    "image": "/placeholder-B2164.svg",
     "description": "ENG_Hitzeschild far",
     "sku": "B2164"
   },
@@ -2363,25 +2363,25 @@ export const products: Product[] = [
     "name": "‘Starthilfe-Vorrichtung far",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-B218.png",
+    "image": "/placeholder-B218.svg",
     "description": "‘Starthilfe-Vorrichtung far",
     "sku": "B218"
   },
   {
     "id": "B2511",
     "name": "Fett Brennerventile",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B2511.png",
+    "image": "/placeholder-B2511.svg",
     "description": "Fett Brennerventile",
     "sku": "B2511"
   },
   {
     "id": "B25111",
     "name": "ENG _Fett Brennerventile",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B25111.png",
+    "image": "/placeholder-B25111.svg",
     "description": "ENG _Fett Brennerventile",
     "sku": "B25111"
   },
@@ -2390,7 +2390,7 @@ export const products: Product[] = [
     "name": "ENG_Drucktfeder, gro8, @ 10 mm",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B25141.png",
+    "image": "/placeholder-B25141.svg",
     "description": "ENG_Drucktfeder, gro8, @ 10 mm",
     "sku": "B25141"
   },
@@ -2399,7 +2399,7 @@ export const products: Product[] = [
     "name": "REGO 7141F (Oberwurfmutter)",
     "category": "Parts",
     "price": 74.8,
-    "image": "/placeholder-B2557.png",
+    "image": "/placeholder-B2557.svg",
     "description": "REGO 7141F (Oberwurfmutter)",
     "sku": "B2557"
   },
@@ -2408,16 +2408,16 @@ export const products: Product[] = [
     "name": "ENG_Dichtungssatz fulr",
     "category": "Parts",
     "price": 16.75,
-    "image": "/placeholder-B25714.png",
+    "image": "/placeholder-B25714.svg",
     "description": "ENG_Dichtungssatz fulr",
     "sku": "B25714"
   },
   {
     "id": "B2574",
     "name": "Uberwurimutter von Piezoztinder",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-B2574.png",
+    "image": "/placeholder-B2574.svg",
     "description": "Uberwurimutter von Piezoztinder",
     "sku": "B2574"
   },
@@ -2426,7 +2426,7 @@ export const products: Product[] = [
     "name": "Kugelkopf fir Arretierungsschlof",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-B2618.png",
+    "image": "/placeholder-B2618.svg",
     "description": "Kugelkopf fir Arretierungsschlof",
     "sku": "B2618"
   },
@@ -2435,7 +2435,7 @@ export const products: Product[] = [
     "name": "CrossBODYbag",
     "category": "Parts",
     "price": 32.77,
-    "image": "/placeholder-CBB.png",
+    "image": "/placeholder-CBB.svg",
     "description": "CrossBODYbag",
     "sku": "CBB"
   },
@@ -2444,7 +2444,7 @@ export const products: Product[] = [
     "name": "Form 1",
     "category": "Parts",
     "price": 10,
-    "image": "/placeholder-EASA.png",
+    "image": "/placeholder-EASA.svg",
     "description": "Form 1",
     "sku": "EASA"
   },
@@ -2453,7 +2453,7 @@ export const products: Product[] = [
     "name": "Flytec",
     "category": "Parts",
     "price": 1880,
-    "image": "/placeholder-F6000.png",
+    "image": "/placeholder-F6000.svg",
     "description": "Flytec",
     "sku": "F6000"
   },
@@ -2462,7 +2462,7 @@ export const products: Product[] = [
     "name": "ENG_Fiytee",
     "category": "Parts",
     "price": 1590,
-    "image": "/placeholder-F60001.png",
+    "image": "/placeholder-F60001.svg",
     "description": "ENG_Fiytee",
     "sku": "F60001"
   },
@@ -2471,7 +2471,7 @@ export const products: Product[] = [
     "name": "Digitoot",
     "category": "Parts",
     "price": 4299,
-    "image": "/placeholder-F6001.png",
+    "image": "/placeholder-F6001.svg",
     "description": "Digitoot",
     "sku": "F6001"
   },
@@ -2480,25 +2480,25 @@ export const products: Product[] = [
     "name": "ENG_Digitool 1.",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-F60011.png",
+    "image": "/placeholder-F60011.svg",
     "description": "ENG_Digitool 1.",
     "sku": "F60011"
   },
   {
     "id": "F6002",
     "name": "Funk TQ 1.",
-    "category": "Parts",
+    "category": "Instruments",
     "price": 4,
-    "image": "/placeholder-F6002.png",
+    "image": "/placeholder-F6002.svg",
     "description": "Funk TQ 1.",
     "sku": "F6002"
   },
   {
     "id": "F60021",
     "name": "ENG_Funk TQ",
-    "category": "Parts",
+    "category": "Instruments",
     "price": 1950,
-    "image": "/placeholder-F60021.png",
+    "image": "/placeholder-F60021.svg",
     "description": "ENG_Funk TQ",
     "sku": "F60021"
   },
@@ -2507,7 +2507,7 @@ export const products: Product[] = [
     "name": "‘Transponder TQ",
     "category": "Parts",
     "price": 2550,
-    "image": "/placeholder-F6003.png",
+    "image": "/placeholder-F6003.svg",
     "description": "‘Transponder TQ",
     "sku": "F6003"
   },
@@ -2516,7 +2516,7 @@ export const products: Product[] = [
     "name": "ENG_Transponder TQ",
     "category": "Parts",
     "price": 2550,
-    "image": "/placeholder-F60031.png",
+    "image": "/placeholder-F60031.svg",
     "description": "ENG_Transponder TQ",
     "sku": "F60031"
   },
@@ -2525,43 +2525,43 @@ export const products: Product[] = [
     "name": "Transponder TOV2",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-F6004.png",
+    "image": "/placeholder-F6004.svg",
     "description": "Transponder TOV2",
     "sku": "F6004"
   },
   {
     "id": "F6005",
     "name": "Funk-Transponderkombi TO 4",
-    "category": "Parts",
+    "category": "Instruments",
     "price": 1,
-    "image": "/placeholder-F6005.png",
+    "image": "/placeholder-F6005.svg",
     "description": "Funk-Transponderkombi TO 4",
     "sku": "F6005"
   },
   {
     "id": "F60051",
     "name": "ENG_Funk-Transponderkombi",
-    "category": "Parts",
+    "category": "Instruments",
     "price": 4099,
-    "image": "/placeholder-F60051.png",
+    "image": "/placeholder-F60051.svg",
     "description": "ENG_Funk-Transponderkombi",
     "sku": "F60051"
   },
   {
     "id": "F6100",
     "name": "Funktasche",
-    "category": "Parts",
+    "category": "Instruments",
     "price": 120,
-    "image": "/placeholder-F6100.png",
+    "image": "/placeholder-F6100.svg",
     "description": "Funktasche",
     "sku": "F6100"
   },
   {
     "id": "F61001",
     "name": "ENG_Funktasche",
-    "category": "Parts",
+    "category": "Instruments",
     "price": 4,
-    "image": "/placeholder-F61001.png",
+    "image": "/placeholder-F61001.svg",
     "description": "ENG_Funktasche",
     "sku": "F61001"
   },
@@ -2570,7 +2570,7 @@ export const products: Product[] = [
     "name": "Transpondertasche",
     "category": "Parts",
     "price": 120,
-    "image": "/placeholder-F6101.png",
+    "image": "/placeholder-F6101.svg",
     "description": "Transpondertasche",
     "sku": "F6101"
   },
@@ -2579,34 +2579,34 @@ export const products: Product[] = [
     "name": "ENG_Transpondertasche",
     "category": "Parts",
     "price": 120,
-    "image": "/placeholder-F610141.png",
+    "image": "/placeholder-F610141.svg",
     "description": "ENG_Transpondertasche",
     "sku": "F610141"
   },
   {
     "id": "F6102",
     "name": "Korbantenne FUNKE",
-    "category": "Parts",
+    "category": "Basket",
     "price": 4,
-    "image": "/placeholder-F6102.png",
+    "image": "/placeholder-F6102.svg",
     "description": "Korbantenne FUNKE",
     "sku": "F6102"
   },
   {
     "id": "F61021",
     "name": "ENG_Korbantenne FUNKE",
-    "category": "Parts",
+    "category": "Basket",
     "price": 155,
-    "image": "/placeholder-F61021.png",
+    "image": "/placeholder-F61021.svg",
     "description": "ENG_Korbantenne FUNKE",
     "sku": "F61021"
   },
   {
     "id": "F61031",
     "name": "ENG_Temperatursender",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 4,
-    "image": "/placeholder-F61031.png",
+    "image": "/placeholder-F61031.svg",
     "description": "ENG_Temperatursender",
     "sku": "F61031"
   },
@@ -2615,7 +2615,7 @@ export const products: Product[] = [
     "name": "ENG_Transponder-Antenne ftir",
     "category": "Parts",
     "price": 159,
-    "image": "/placeholder-F65001.png",
+    "image": "/placeholder-F65001.svg",
     "description": "ENG_Transponder-Antenne ftir",
     "sku": "F65001"
   },
@@ -2624,7 +2624,7 @@ export const products: Product[] = [
     "name": "Wikrofon JO1-500x",
     "category": "Parts",
     "price": 185,
-    "image": "/placeholder-F6501.png",
+    "image": "/placeholder-F6501.svg",
     "description": "Wikrofon JO1-500x",
     "sku": "F6501"
   },
@@ -2633,7 +2633,7 @@ export const products: Product[] = [
     "name": "ENG_Mikrofon JDI-500x",
     "category": "Parts",
     "price": 165,
-    "image": "/placeholder-F65014.png",
+    "image": "/placeholder-F65014.svg",
     "description": "ENG_Mikrofon JDI-500x",
     "sku": "F65014"
   },
@@ -2642,7 +2642,7 @@ export const products: Product[] = [
     "name": "Blei-Akku Steckerladegeriit",
     "category": "Parts",
     "price": 16.8,
-    "image": "/placeholder-F6502.png",
+    "image": "/placeholder-F6502.svg",
     "description": "Blei-Akku Steckerladegeriit",
     "sku": "F6502"
   },
@@ -2651,7 +2651,7 @@ export const products: Product[] = [
     "name": "Batterie, 9 V, fir",
     "category": "Parts",
     "price": 3.7,
-    "image": "/placeholder-F6503.png",
+    "image": "/placeholder-F6503.svg",
     "description": "Batterie, 9 V, fir",
     "sku": "F6503"
   },
@@ -2660,7 +2660,7 @@ export const products: Product[] = [
     "name": "Blei-Akku, 12 V, 2.2 Ah",
     "category": "Parts",
     "price": 46,
-    "image": "/placeholder-F6504.png",
+    "image": "/placeholder-F6504.svg",
     "description": "Blei-Akku, 12 V, 2.2 Ah",
     "sku": "F6504"
   },
@@ -2669,25 +2669,25 @@ export const products: Product[] = [
     "name": "Fiytec - without Sender",
     "category": "Parts",
     "price": 1222,
-    "image": "/placeholder-F6505.png",
+    "image": "/placeholder-F6505.svg",
     "description": "Fiytec - without Sender",
     "sku": "F6505"
   },
   {
     "id": "F6506",
     "name": "Fiytec - Temperatursender",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 4,
-    "image": "/placeholder-F6506.png",
+    "image": "/placeholder-F6506.svg",
     "description": "Fiytec - Temperatursender",
     "sku": "F6506"
   },
   {
     "id": "F65061",
     "name": "ENG _Flytec - Temperatursender",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 368,
-    "image": "/placeholder-F65061.png",
+    "image": "/placeholder-F65061.svg",
     "description": "ENG _Flytec - Temperatursender",
     "sku": "F65061"
   },
@@ -2696,25 +2696,25 @@ export const products: Product[] = [
     "name": "Transponder, Fabrikat TO",
     "category": "Parts",
     "price": 2149,
-    "image": "/placeholder-F6507.png",
+    "image": "/placeholder-F6507.svg",
     "description": "Transponder, Fabrikat TO",
     "sku": "F6507"
   },
   {
     "id": "F6508",
     "name": "Digitool - Temperatursender",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 4,
-    "image": "/placeholder-F6508.png",
+    "image": "/placeholder-F6508.svg",
     "description": "Digitool - Temperatursender",
     "sku": "F6508"
   },
   {
     "id": "F6509",
     "name": "Funktasche/Transporttasche fur",
-    "category": "Parts",
+    "category": "Instruments",
     "price": 170,
-    "image": "/placeholder-F6509.png",
+    "image": "/placeholder-F6509.svg",
     "description": "Funktasche/Transporttasche fur",
     "sku": "F6509"
   },
@@ -2723,7 +2723,7 @@ export const products: Product[] = [
     "name": "Federbandantenne KRT2",
     "category": "Parts",
     "price": 160,
-    "image": "/placeholder-F6510.png",
+    "image": "/placeholder-F6510.svg",
     "description": "Federbandantenne KRT2",
     "sku": "F6510"
   },
@@ -2732,7 +2732,7 @@ export const products: Product[] = [
     "name": "Batterien, Akku, 1,2V, AA-4",
     "category": "Parts",
     "price": 7,
-    "image": "/placeholder-F6513.png",
+    "image": "/placeholder-F6513.svg",
     "description": "Batterien, Akku, 1,2V, AA-4",
     "sku": "F6513"
   },
@@ -2741,7 +2741,7 @@ export const products: Product[] = [
     "name": "‘Transponder-Antenne fiir KTX2",
     "category": "Parts",
     "price": 159,
-    "image": "/placeholder-F6600.png",
+    "image": "/placeholder-F6600.svg",
     "description": "‘Transponder-Antenne fiir KTX2",
     "sku": "F6600"
   },
@@ -2750,16 +2750,16 @@ export const products: Product[] = [
     "name": "ENG_Blei-Akku Steckerladegerat",
     "category": "Parts",
     "price": 16.8,
-    "image": "/placeholder-F66021.png",
+    "image": "/placeholder-F66021.svg",
     "description": "ENG_Blei-Akku Steckerladegerat",
     "sku": "F66021"
   },
   {
     "id": "F66081",
     "name": "ENG_Digitool Temperatursender",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 399,
-    "image": "/placeholder-F66081.png",
+    "image": "/placeholder-F66081.svg",
     "description": "ENG_Digitool Temperatursender",
     "sku": "F66081"
   },
@@ -2768,7 +2768,7 @@ export const products: Product[] = [
     "name": "Automatik-Ladegeréit XS 0.8 with",
     "category": "Parts",
     "price": 75,
-    "image": "/placeholder-F6612.png",
+    "image": "/placeholder-F6612.svg",
     "description": "Automatik-Ladegeréit XS 0.8 with",
     "sku": "F6612"
   },
@@ -2777,7 +2777,7 @@ export const products: Product[] = [
     "name": "VA5O/S",
     "category": "Parts",
     "price": 1750,
-    "image": "/placeholder-G4000.png",
+    "image": "/placeholder-G4000.svg",
     "description": "VA5O/S",
     "sku": "G4000"
   },
@@ -2786,25 +2786,25 @@ export const products: Product[] = [
     "name": "ENG_VA100/M_",
     "category": "Parts",
     "price": 2350,
-    "image": "/placeholder-G40051.png",
+    "image": "/placeholder-G40051.svg",
     "description": "ENG_VA100/M_",
     "sku": "G40051"
   },
   {
     "id": "G4101",
     "name": "Flaschengurte VA 70",
-    "category": "Parts",
+    "category": "Tank",
     "price": 22,
-    "image": "/placeholder-G4101.png",
+    "image": "/placeholder-G4101.svg",
     "description": "Flaschengurte VA 70",
     "sku": "G4101"
   },
   {
     "id": "G41034",
     "name": "ENG-Folladapter Autogas",
-    "category": "Parts",
+    "category": "Tank",
     "price": 4,
-    "image": "/placeholder-G41034.png",
+    "image": "/placeholder-G41034.svg",
     "description": "ENG-Folladapter Autogas",
     "sku": "G41034"
   },
@@ -2813,7 +2813,7 @@ export const products: Product[] = [
     "name": "T-Verbindung 4-fach",
     "category": "Parts",
     "price": 605,
-    "image": "/placeholder-G4107.png",
+    "image": "/placeholder-G4107.svg",
     "description": "T-Verbindung 4-fach",
     "sku": "G4107"
   },
@@ -2822,7 +2822,7 @@ export const products: Product[] = [
     "name": "ENG_T-Verbindin 4-fach",
     "category": "Parts",
     "price": 605,
-    "image": "/placeholder-G41071.png",
+    "image": "/placeholder-G41071.svg",
     "description": "ENG_T-Verbindin 4-fach",
     "sku": "G41071"
   },
@@ -2831,7 +2831,7 @@ export const products: Product[] = [
     "name": "Schutzkappe",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-G4501.png",
+    "image": "/placeholder-G4501.svg",
     "description": "Schutzkappe",
     "sku": "G4501"
   },
@@ -2840,7 +2840,7 @@ export const products: Product[] = [
     "name": "ENGL_Urmristsatz",
     "category": "Parts",
     "price": 10.7,
-    "image": "/placeholder-G45031.png",
+    "image": "/placeholder-G45031.svg",
     "description": "ENGL_Urmristsatz",
     "sku": "G45031"
   },
@@ -2849,7 +2849,7 @@ export const products: Product[] = [
     "name": "ENG_LORCH Mufie",
     "category": "Parts",
     "price": 44.5,
-    "image": "/placeholder-G45054.png",
+    "image": "/placeholder-G45054.svg",
     "description": "ENG_LORCH Mufie",
     "sku": "G45054"
   },
@@ -2858,7 +2858,7 @@ export const products: Product[] = [
     "name": "ENG_Ubergangsmuffe",
     "category": "Parts",
     "price": 20.75,
-    "image": "/placeholder-G45081.png",
+    "image": "/placeholder-G45081.svg",
     "description": "ENG_Ubergangsmuffe",
     "sku": "G45081"
   },
@@ -2867,7 +2867,7 @@ export const products: Product[] = [
     "name": "Ubergangssttick TEMA-Mutffe",
     "category": "Parts",
     "price": 20.78,
-    "image": "/placeholder-G4510.png",
+    "image": "/placeholder-G4510.svg",
     "description": "Ubergangssttick TEMA-Mutffe",
     "sku": "G4510"
   },
@@ -2876,7 +2876,7 @@ export const products: Product[] = [
     "name": "ENG_Doppetnippel Kugelhahn",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-G45101.png",
+    "image": "/placeholder-G45101.svg",
     "description": "ENG_Doppetnippel Kugelhahn",
     "sku": "G45101"
   },
@@ -2885,7 +2885,7 @@ export const products: Product[] = [
     "name": "Austausch Kugelhahn 28,8",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-G4517.png",
+    "image": "/placeholder-G4517.svg",
     "description": "Austausch Kugelhahn 28,8",
     "sku": "G4517"
   },
@@ -2894,16 +2894,16 @@ export const products: Product[] = [
     "name": "ENG_Teflondichtungssatz far",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-G45201.png",
+    "image": "/placeholder-G45201.svg",
     "description": "ENG_Teflondichtungssatz far",
     "sku": "G45201"
   },
   {
     "id": "G45311",
     "name": "ENG_Peilrohrventil - Schweizer",
-    "category": "Parts",
+    "category": "Burner",
     "price": 1,
-    "image": "/placeholder-G45311.png",
+    "image": "/placeholder-G45311.svg",
     "description": "ENG_Peilrohrventil - Schweizer",
     "sku": "G45311"
   },
@@ -2912,7 +2912,7 @@ export const products: Product[] = [
     "name": "ENG_Flachdichtung far",
     "category": "Parts",
     "price": 1.8,
-    "image": "/placeholder-G45361.png",
+    "image": "/placeholder-G45361.svg",
     "description": "ENG_Flachdichtung far",
     "sku": "G45361"
   },
@@ -2921,7 +2921,7 @@ export const products: Product[] = [
     "name": "Schutzholle VA 60 (without",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-G4541.png",
+    "image": "/placeholder-G4541.svg",
     "description": "Schutzholle VA 60 (without",
     "sku": "G4541"
   },
@@ -2930,43 +2930,43 @@ export const products: Product[] = [
     "name": "Schutzhille VA 70 (without",
     "category": "Parts",
     "price": 59.55,
-    "image": "/placeholder-G4542.png",
+    "image": "/placeholder-G4542.svg",
     "description": "Schutzhille VA 70 (without",
     "sku": "G4542"
   },
   {
     "id": "G4546",
     "name": "‘Schaumstoffpolsterung VA 70",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 24.75,
-    "image": "/placeholder-G4546.png",
+    "image": "/placeholder-G4546.svg",
     "description": "‘Schaumstoffpolsterung VA 70",
     "sku": "G4546"
   },
   {
     "id": "G4549",
     "name": "Anzeigeplatte Peilrohrventil",
-    "category": "Parts",
+    "category": "Burner",
     "price": 3.75,
-    "image": "/placeholder-G4549.png",
+    "image": "/placeholder-G4549.svg",
     "description": "Anzeigeplatte Peilrohrventil",
     "sku": "G4549"
   },
   {
     "id": "G45491",
     "name": "ENG_Anzeigeplatte Peitrohrventil",
-    "category": "Parts",
+    "category": "Burner",
     "price": 3.75,
-    "image": "/placeholder-G45491.png",
+    "image": "/placeholder-G45491.svg",
     "description": "ENG_Anzeigeplatte Peitrohrventil",
     "sku": "G45491"
   },
   {
     "id": "G45591",
     "name": "ENG_Ersatzschlauch fiir",
-    "category": "Parts",
+    "category": "Burner",
     "price": 58.25,
-    "image": "/placeholder-G45591.png",
+    "image": "/placeholder-G45591.svg",
     "description": "ENG_Ersatzschlauch fiir",
     "sku": "G45591"
   },
@@ -2975,7 +2975,7 @@ export const products: Product[] = [
     "name": "ENG_Splint (Messingbuchse - 027",
     "category": "Parts",
     "price": 1,
-    "image": "/placeholder-G45631.png",
+    "image": "/placeholder-G45631.svg",
     "description": "ENG_Splint (Messingbuchse - 027",
     "sku": "G45631"
   },
@@ -2984,7 +2984,7 @@ export const products: Product[] = [
     "name": "ENG_O-Ring fur Doppeinippel",
     "category": "Parts",
     "price": 1.2,
-    "image": "/placeholder-G45641.png",
+    "image": "/placeholder-G45641.svg",
     "description": "ENG_O-Ring fur Doppeinippel",
     "sku": "G45641"
   },
@@ -2993,7 +2993,7 @@ export const products: Product[] = [
     "name": "Spindel DN 10",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-G4567.png",
+    "image": "/placeholder-G4567.svg",
     "description": "Spindel DN 10",
     "sku": "G4567"
   },
@@ -3002,7 +3002,7 @@ export const products: Product[] = [
     "name": "ENG_Finstellschraube",
     "category": "Parts",
     "price": 1,
-    "image": "/placeholder-G45684.png",
+    "image": "/placeholder-G45684.svg",
     "description": "ENG_Finstellschraube",
     "sku": "G45684"
   },
@@ -3011,25 +3011,25 @@ export const products: Product[] = [
     "name": "ENG_Entlaftungskugethahn, G",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-G45731.png",
+    "image": "/placeholder-G45731.svg",
     "description": "ENG_Entlaftungskugethahn, G",
     "sku": "G45731"
   },
   {
     "id": "G4577",
     "name": "Fallstopventil",
-    "category": "Parts",
+    "category": "Burner",
     "price": 0,
-    "image": "/placeholder-G4577.png",
+    "image": "/placeholder-G4577.svg",
     "description": "Fallstopventil",
     "sku": "G4577"
   },
   {
     "id": "G45931",
     "name": "ENG_Schlauch flir",
-    "category": "Parts",
+    "category": "Burner",
     "price": 0,
-    "image": "/placeholder-G45931.png",
+    "image": "/placeholder-G45931.svg",
     "description": "ENG_Schlauch flir",
     "sku": "G45931"
   },
@@ -3038,25 +3038,25 @@ export const products: Product[] = [
     "name": "ENG_Adapter far Uberdruck., Typ",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-G45951.png",
+    "image": "/placeholder-G45951.svg",
     "description": "ENG_Adapter far Uberdruck., Typ",
     "sku": "G45951"
   },
   {
     "id": "G48871",
     "name": "ENG _Ersatzschlauch fiir",
-    "category": "Parts",
+    "category": "Burner",
     "price": 62,
-    "image": "/placeholder-G48871.png",
+    "image": "/placeholder-G48871.svg",
     "description": "ENG _Ersatzschlauch fiir",
     "sku": "G48871"
   },
   {
     "id": "G41041",
     "name": "ENG_Stiffstoff Fullamatur",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 290,
-    "image": "/placeholder-G41041.png",
+    "image": "/placeholder-G41041.svg",
     "description": "ENG_Stiffstoff Fullamatur",
     "sku": "G41041"
   },
@@ -3065,7 +3065,7 @@ export const products: Product[] = [
     "name": "Hiillen - New",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-H1000.png",
+    "image": "/placeholder-H1000.svg",
     "description": "Hiillen - New",
     "sku": "H1000"
   },
@@ -3074,16 +3074,16 @@ export const products: Product[] = [
     "name": "Hille - 18/16",
     "category": "Parts",
     "price": 18300,
-    "image": "/placeholder-H1001.png",
+    "image": "/placeholder-H1001.svg",
     "description": "Hille - 18/16",
     "sku": "H1001"
   },
   {
     "id": "H10011",
     "name": "envelope - 18/16",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 18300,
-    "image": "/placeholder-H10011.png",
+    "image": "/placeholder-H10011.svg",
     "description": "envelope - 18/16",
     "sku": "H10011"
   },
@@ -3092,16 +3092,16 @@ export const products: Product[] = [
     "name": "Halle - 20/16 19",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-H1002.png",
+    "image": "/placeholder-H1002.svg",
     "description": "Halle - 20/16 19",
     "sku": "H1002"
   },
   {
     "id": "H10021",
     "name": "envelope 20/16 19",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 1,
-    "image": "/placeholder-H10021.png",
+    "image": "/placeholder-H10021.svg",
     "description": "envelope 20/16 19",
     "sku": "H10021"
   },
@@ -3110,16 +3110,16 @@ export const products: Product[] = [
     "name": "Halle - 22/16",
     "category": "Parts",
     "price": 20400,
-    "image": "/placeholder-H1003.png",
+    "image": "/placeholder-H1003.svg",
     "description": "Halle - 22/16",
     "sku": "H1003"
   },
   {
     "id": "H10031",
     "name": "envelope 22/16 20.",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 4,
-    "image": "/placeholder-H10031.png",
+    "image": "/placeholder-H10031.svg",
     "description": "envelope 22/16 20.",
     "sku": "H10031"
   },
@@ -3128,7 +3128,7 @@ export const products: Product[] = [
     "name": "Halle - 26/16",
     "category": "Parts",
     "price": 23450,
-    "image": "/placeholder-H1004.png",
+    "image": "/placeholder-H1004.svg",
     "description": "Halle - 26/16",
     "sku": "H1004"
   },
@@ -3137,7 +3137,7 @@ export const products: Product[] = [
     "name": "Halle - 30/16 25",
     "category": "Parts",
     "price": 1,
-    "image": "/placeholder-H1005.png",
+    "image": "/placeholder-H1005.svg",
     "description": "Halle - 30/16 25",
     "sku": "H1005"
   },
@@ -3146,7 +3146,7 @@ export const products: Product[] = [
     "name": "Halle - 34/16",
     "category": "Parts",
     "price": 26200,
-    "image": "/placeholder-H1006.png",
+    "image": "/placeholder-H1006.svg",
     "description": "Halle - 34/16",
     "sku": "H1006"
   },
@@ -3155,16 +3155,16 @@ export const products: Product[] = [
     "name": "Halle - 18/24 20.",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-H1007.png",
+    "image": "/placeholder-H1007.svg",
     "description": "Halle - 18/24 20.",
     "sku": "H1007"
   },
   {
     "id": "H10071",
     "name": "envelope 18/24 20.",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 4,
-    "image": "/placeholder-H10071.png",
+    "image": "/placeholder-H10071.svg",
     "description": "envelope 18/24 20.",
     "sku": "H10071"
   },
@@ -3173,16 +3173,16 @@ export const products: Product[] = [
     "name": "Hille - 22/24 21",
     "category": "Parts",
     "price": 1,
-    "image": "/placeholder-H1008.png",
+    "image": "/placeholder-H1008.svg",
     "description": "Hille - 22/24 21",
     "sku": "H1008"
   },
   {
     "id": "H10081",
     "name": "envelope 30/16 25",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 1,
-    "image": "/placeholder-H10081.png",
+    "image": "/placeholder-H10081.svg",
     "description": "envelope 30/16 25",
     "sku": "H10081"
   },
@@ -3191,25 +3191,25 @@ export const products: Product[] = [
     "name": "Hille - 26/24 24",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-H1009.png",
+    "image": "/placeholder-H1009.svg",
     "description": "Hille - 26/24 24",
     "sku": "H1009"
   },
   {
     "id": "H10091",
     "name": "envelope 26/24 24",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 4,
-    "image": "/placeholder-H10091.png",
+    "image": "/placeholder-H10091.svg",
     "description": "envelope 26/24 24",
     "sku": "H10091"
   },
   {
     "id": "H10101",
     "name": "envelope 30/24 26.",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 4,
-    "image": "/placeholder-H10101.png",
+    "image": "/placeholder-H10101.svg",
     "description": "envelope 30/24 26.",
     "sku": "H10101"
   },
@@ -3218,34 +3218,34 @@ export const products: Product[] = [
     "name": "Hille - 36/24 29.",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-H1012.png",
+    "image": "/placeholder-H1012.svg",
     "description": "Hille - 36/24 29.",
     "sku": "H1012"
   },
   {
     "id": "H10121",
     "name": "envelope 36/24",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 29400,
-    "image": "/placeholder-H10121.png",
+    "image": "/placeholder-H10121.svg",
     "description": "envelope 36/24",
     "sku": "H10121"
   },
   {
     "id": "H10131",
     "name": "envelope 40/24 32.",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 4,
-    "image": "/placeholder-H10131.png",
+    "image": "/placeholder-H10131.svg",
     "description": "envelope 40/24 32.",
     "sku": "H10131"
   },
   {
     "id": "H10144",
     "name": "envelope 42/24 35",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 4,
-    "image": "/placeholder-H10144.png",
+    "image": "/placeholder-H10144.svg",
     "description": "envelope 42/24 35",
     "sku": "H10144"
   },
@@ -3254,7 +3254,7 @@ export const products: Product[] = [
     "name": "Hille - 45/24",
     "category": "Parts",
     "price": 36800,
-    "image": "/placeholder-H1015.png",
+    "image": "/placeholder-H1015.svg",
     "description": "Hille - 45/24",
     "sku": "H1015"
   },
@@ -3263,25 +3263,25 @@ export const products: Product[] = [
     "name": "Halle - 60/24",
     "category": "Parts",
     "price": 43100,
-    "image": "/placeholder-H1017.png",
+    "image": "/placeholder-H1017.svg",
     "description": "Halle - 60/24",
     "sku": "H1017"
   },
   {
     "id": "H10171",
     "name": "envelope 60/24",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 43100,
-    "image": "/placeholder-H10171.png",
+    "image": "/placeholder-H10171.svg",
     "description": "envelope 60/24",
     "sku": "H10171"
   },
   {
     "id": "H10191",
     "name": "‘envelope 70/24 46",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 1,
-    "image": "/placeholder-H10191.png",
+    "image": "/placeholder-H10191.svg",
     "description": "‘envelope 70/24 46",
     "sku": "H10191"
   },
@@ -3290,16 +3290,16 @@ export const products: Product[] = [
     "name": "Halle - 85/24",
     "category": "Parts",
     "price": 51500,
-    "image": "/placeholder-H1020.png",
+    "image": "/placeholder-H1020.svg",
     "description": "Halle - 85/24",
     "sku": "H1020"
   },
   {
     "id": "H10201",
     "name": "envelope 85/24",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 51500,
-    "image": "/placeholder-H10201.png",
+    "image": "/placeholder-H10201.svg",
     "description": "envelope 85/24",
     "sku": "H10201"
   },
@@ -3308,7 +3308,7 @@ export const products: Product[] = [
     "name": "Hille - 105/28 57",
     "category": "Parts",
     "price": 1,
-    "image": "/placeholder-H1021.png",
+    "image": "/placeholder-H1021.svg",
     "description": "Hille - 105/28 57",
     "sku": "H1021"
   },
@@ -3317,16 +3317,16 @@ export const products: Product[] = [
     "name": "Halle - 125/28",
     "category": "Parts",
     "price": 68000,
-    "image": "/placeholder-H1022.png",
+    "image": "/placeholder-H1022.svg",
     "description": "Halle - 125/28",
     "sku": "H1022"
   },
   {
     "id": "H10221",
     "name": "envelope 125/28 68",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 1,
-    "image": "/placeholder-H10221.png",
+    "image": "/placeholder-H10221.svg",
     "description": "envelope 125/28 68",
     "sku": "H10221"
   },
@@ -3335,16 +3335,16 @@ export const products: Product[] = [
     "name": "Sportballon Mistral 18/24 49",
     "category": "Parts",
     "price": 1,
-    "image": "/placeholder-H1023.png",
+    "image": "/placeholder-H1023.svg",
     "description": "Sportballon Mistral 18/24 49",
     "sku": "H1023"
   },
   {
     "id": "H10231",
     "name": "mistral envelope 18/24",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 19250,
-    "image": "/placeholder-H10231.png",
+    "image": "/placeholder-H10231.svg",
     "description": "mistral envelope 18/24",
     "sku": "H10231"
   },
@@ -3353,16 +3353,16 @@ export const products: Product[] = [
     "name": "Sportbalion Mistral 20/24 20.",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-H1024.png",
+    "image": "/placeholder-H1024.svg",
     "description": "Sportbalion Mistral 20/24 20.",
     "sku": "H1024"
   },
   {
     "id": "H10241",
     "name": "envelope Mistral 20/24 20.",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 4,
-    "image": "/placeholder-H10241.png",
+    "image": "/placeholder-H10241.svg",
     "description": "envelope Mistral 20/24 20.",
     "sku": "H10241"
   },
@@ -3371,16 +3371,16 @@ export const products: Product[] = [
     "name": "Sportbalion Mistral 22/24",
     "category": "Parts",
     "price": 20950,
-    "image": "/placeholder-H1025.png",
+    "image": "/placeholder-H1025.svg",
     "description": "Sportbalion Mistral 22/24",
     "sku": "H1025"
   },
   {
     "id": "H10251",
     "name": "envelope Mistral 22/24",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 20950,
-    "image": "/placeholder-H10251.png",
+    "image": "/placeholder-H10251.svg",
     "description": "envelope Mistral 22/24",
     "sku": "H10251"
   },
@@ -3389,7 +3389,7 @@ export const products: Product[] = [
     "name": "ENG_Zulassungsgebthr",
     "category": "Parts",
     "price": 300,
-    "image": "/placeholder-H10261.png",
+    "image": "/placeholder-H10261.svg",
     "description": "ENG_Zulassungsgebthr",
     "sku": "H10261"
   },
@@ -3398,7 +3398,7 @@ export const products: Product[] = [
     "name": "Hille - Sonderbauform 400.",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-H1027.png",
+    "image": "/placeholder-H1027.svg",
     "description": "Hille - Sonderbauform 400.",
     "sku": "H1027"
   },
@@ -3407,7 +3407,7 @@ export const products: Product[] = [
     "name": "ENG_Hille - Sonderbauform 100.",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-H10271.png",
+    "image": "/placeholder-H10271.svg",
     "description": "ENG_Hille - Sonderbauform 100.",
     "sku": "H10271"
   },
@@ -3416,7 +3416,7 @@ export const products: Product[] = [
     "name": "Halle - 36/16 29",
     "category": "Parts",
     "price": 1,
-    "image": "/placeholder-H1028.png",
+    "image": "/placeholder-H1028.svg",
     "description": "Halle - 36/16 29",
     "sku": "H1028"
   },
@@ -3425,16 +3425,16 @@ export const products: Product[] = [
     "name": "Halle - 16724 19.",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-H1029.png",
+    "image": "/placeholder-H1029.svg",
     "description": "Halle - 16724 19.",
     "sku": "H1029"
   },
   {
     "id": "H10291",
     "name": "‘envelope 16/24",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 49700,
-    "image": "/placeholder-H10291.png",
+    "image": "/placeholder-H10291.svg",
     "description": "‘envelope 16/24",
     "sku": "H10291"
   },
@@ -3443,7 +3443,7 @@ export const products: Product[] = [
     "name": "ARTWORK",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-H1040.png",
+    "image": "/placeholder-H1040.svg",
     "description": "ARTWORK",
     "sku": "H1040"
   },
@@ -3452,25 +3452,25 @@ export const products: Product[] = [
     "name": "ENG_Artwork",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-H10401.png",
+    "image": "/placeholder-H10401.svg",
     "description": "ENG_Artwork",
     "sku": "H10401"
   },
   {
     "id": "H1101",
     "name": "Drehventil/zweifach 1.",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-H1101.png",
+    "image": "/placeholder-H1101.svg",
     "description": "Drehventil/zweifach 1.",
     "sku": "H1101"
   },
   {
     "id": "H11011",
     "name": "ENG_Drehventile 2-fach",
-    "category": "Parts",
+    "category": "Burner",
     "price": 1650,
-    "image": "/placeholder-H11011.png",
+    "image": "/placeholder-H11011.svg",
     "description": "ENG_Drehventile 2-fach",
     "sku": "H11011"
   },
@@ -3479,7 +3479,7 @@ export const products: Product[] = [
     "name": "Thermogrip + 1 Bahn",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-H1102.png",
+    "image": "/placeholder-H1102.svg",
     "description": "Thermogrip + 1 Bahn",
     "sku": "H1102"
   },
@@ -3488,7 +3488,7 @@ export const products: Product[] = [
     "name": "ENG_Thermogip +",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-H11024.png",
+    "image": "/placeholder-H11024.svg",
     "description": "ENG_Thermogip +",
     "sku": "H11024"
   },
@@ -3497,7 +3497,7 @@ export const products: Product[] = [
     "name": "Schnell-Entleerungssystem",
     "category": "Parts",
     "price": 1150,
-    "image": "/placeholder-H1103.png",
+    "image": "/placeholder-H1103.svg",
     "description": "Schnell-Entleerungssystem",
     "sku": "H1103"
   },
@@ -3506,7 +3506,7 @@ export const products: Product[] = [
     "name": "ENG_Schnell-Entleerungssystem 1.",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-H11034.png",
+    "image": "/placeholder-H11034.svg",
     "description": "ENG_Schnell-Entleerungssystem 1.",
     "sku": "H11034"
   },
@@ -3515,7 +3515,7 @@ export const products: Product[] = [
     "name": "ENG_Airpusher 50/24",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-H11041.png",
+    "image": "/placeholder-H11041.svg",
     "description": "ENG_Airpusher 50/24",
     "sku": "H11041"
   },
@@ -3524,7 +3524,7 @@ export const products: Product[] = [
     "name": "Fiytec Vorbereitung",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-H1106.png",
+    "image": "/placeholder-H1106.svg",
     "description": "Fiytec Vorbereitung",
     "sku": "H1106"
   },
@@ -3533,7 +3533,7 @@ export const products: Product[] = [
     "name": "Drehventiveinfach",
     "category": "Parts",
     "price": 890,
-    "image": "/placeholder-H1107.png",
+    "image": "/placeholder-H1107.svg",
     "description": "Drehventiveinfach",
     "sku": "H1107"
   },
@@ -3542,7 +3542,7 @@ export const products: Product[] = [
     "name": "Lasigurt, 20 mm",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-H1109.png",
+    "image": "/placeholder-H1109.svg",
     "description": "Lasigurt, 20 mm",
     "sku": "H1109"
   },
@@ -3551,7 +3551,7 @@ export const products: Product[] = [
     "name": "ENG_Fesselstartausriistung (inkl.",
     "category": "Parts",
     "price": 1554,
-    "image": "/placeholder-H11154.png",
+    "image": "/placeholder-H11154.svg",
     "description": "ENG_Fesselstartausriistung (inkl.",
     "sku": "H11154"
   },
@@ -3560,16 +3560,16 @@ export const products: Product[] = [
     "name": "Alcantara DS 14P, 137 m",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-H1116.png",
+    "image": "/placeholder-H1116.svg",
     "description": "Alcantara DS 14P, 137 m",
     "sku": "H1116"
   },
   {
     "id": "H11184",
     "name": "Banner preparationenvelope",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 1,
-    "image": "/placeholder-H11184.png",
+    "image": "/placeholder-H11184.svg",
     "description": "Banner preparationenvelope",
     "sku": "H11184"
   },
@@ -3578,7 +3578,7 @@ export const products: Product[] = [
     "name": "Druck",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-H1120.png",
+    "image": "/placeholder-H1120.svg",
     "description": "Druck",
     "sku": "H1120"
   },
@@ -3587,7 +3587,7 @@ export const products: Product[] = [
     "name": "print",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-H11201.png",
+    "image": "/placeholder-H11201.svg",
     "description": "print",
     "sku": "H11201"
   },
@@ -3596,43 +3596,43 @@ export const products: Product[] = [
     "name": "ENG_Windtuch (Baugrobe",
     "category": "Parts",
     "price": 1265,
-    "image": "/placeholder-H11224.png",
+    "image": "/placeholder-H11224.svg",
     "description": "ENG_Windtuch (Baugrobe",
     "sku": "H11224"
   },
   {
     "id": "H1500",
     "name": "Hallenstoff - Nylon",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 17.8,
-    "image": "/placeholder-H1500.png",
+    "image": "/placeholder-H1500.svg",
     "description": "Hallenstoff - Nylon",
     "sku": "H1500"
   },
   {
     "id": "H15004",
     "name": "ENG_Hullenstoff - Nylon",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 17.8,
-    "image": "/placeholder-H15004.png",
+    "image": "/placeholder-H15004.svg",
     "description": "ENG_Hullenstoff - Nylon",
     "sku": "H15004"
   },
   {
     "id": "H15014",
     "name": "ENG_Thermogrip-Stoff",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 20.8,
-    "image": "/placeholder-H15014.png",
+    "image": "/placeholder-H15014.svg",
     "description": "ENG_Thermogrip-Stoff",
     "sku": "H15014"
   },
   {
     "id": "H15021",
     "name": "ENG_Nomex-Stoff",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 73,
-    "image": "/placeholder-H15021.png",
+    "image": "/placeholder-H15021.svg",
     "description": "ENG_Nomex-Stoff",
     "sku": "H15021"
   },
@@ -3641,7 +3641,7 @@ export const products: Product[] = [
     "name": "Flauschteile, 50 mm breit, 10 cm",
     "category": "Parts",
     "price": 1.5,
-    "image": "/placeholder-H1506.png",
+    "image": "/placeholder-H1506.svg",
     "description": "Flauschteile, 50 mm breit, 10 cm",
     "sku": "H1506"
   },
@@ -3650,7 +3650,7 @@ export const products: Product[] = [
     "name": "Hallenseilordner/Nomex",
     "category": "Parts",
     "price": 23.6,
-    "image": "/placeholder-H1507.png",
+    "image": "/placeholder-H1507.svg",
     "description": "Hallenseilordner/Nomex",
     "sku": "H1507"
   },
@@ -3659,61 +3659,61 @@ export const products: Product[] = [
     "name": "‘Schmelzlot without Fahne",
     "category": "Parts",
     "price": 29.4,
-    "image": "/placeholder-H1510.png",
+    "image": "/placeholder-H1510.svg",
     "description": "‘Schmelzlot without Fahne",
     "sku": "H1510"
   },
   {
     "id": "H1511",
     "name": "Hallenstoff - Nyion, Sonderfarbe",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 22.5,
-    "image": "/placeholder-H1511.png",
+    "image": "/placeholder-H1511.svg",
     "description": "Hallenstoff - Nyion, Sonderfarbe",
     "sku": "H1511"
   },
   {
     "id": "H1513",
     "name": "TemperaturmeRstreifen, +88 ..",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 5.1,
-    "image": "/placeholder-H1513.png",
+    "image": "/placeholder-H1513.svg",
     "description": "TemperaturmeRstreifen, +88 ..",
     "sku": "H1513"
   },
   {
     "id": "H1516",
     "name": "Ventilleine color red, @ 8 mm 530",
-    "category": "Parts",
+    "category": "Burner",
     "price": 1,
-    "image": "/placeholder-H1516.png",
+    "image": "/placeholder-H1516.svg",
     "description": "Ventilleine color red, @ 8 mm 530",
     "sku": "H1516"
   },
   {
     "id": "H15174",
     "name": "ENG_Ventilleine color wei8rot",
-    "category": "Parts",
+    "category": "Burner",
     "price": 5.3,
-    "image": "/placeholder-H15174.png",
+    "image": "/placeholder-H15174.svg",
     "description": "ENG_Ventilleine color wei8rot",
     "sku": "H15174"
   },
   {
     "id": "H1601",
     "name": "Thermogrip-Stoff",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 20.8,
-    "image": "/placeholder-H1601.png",
+    "image": "/placeholder-H1601.svg",
     "description": "Thermogrip-Stoff",
     "sku": "H1601"
   },
   {
     "id": "H1604",
     "name": "Drehventilleine, color yellow, 03",
-    "category": "Parts",
+    "category": "Burner",
     "price": 4,
-    "image": "/placeholder-H1604.png",
+    "image": "/placeholder-H1604.svg",
     "description": "Drehventilleine, color yellow, 03",
     "sku": "H1604"
   },
@@ -3722,7 +3722,7 @@ export const products: Product[] = [
     "name": "‘Schmelzlot with Fahne",
     "category": "Parts",
     "price": 42.4,
-    "image": "/placeholder-H1609.png",
+    "image": "/placeholder-H1609.svg",
     "description": "‘Schmelzlot with Fahne",
     "sku": "H1609"
   },
@@ -3731,25 +3731,25 @@ export const products: Product[] = [
     "name": "ENG_Schmelzlot with Fahne",
     "category": "Parts",
     "price": 42.4,
-    "image": "/placeholder-H16091.png",
+    "image": "/placeholder-H16091.svg",
     "description": "ENG_Schmelzlot with Fahne",
     "sku": "H16091"
   },
   {
     "id": "H18111",
     "name": "ENG_Hillenstoff - Nylon",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 22.5,
-    "image": "/placeholder-H18111.png",
+    "image": "/placeholder-H18111.svg",
     "description": "ENG_Hillenstoff - Nylon",
     "sku": "H18111"
   },
   {
     "id": "H1812",
     "name": "Thermogrip-Stoff, Sonderfarbe",
-    "category": "Parts",
+    "category": "Envelope",
     "price": 25.1,
-    "image": "/placeholder-H1812.png",
+    "image": "/placeholder-H1812.svg",
     "description": "Thermogrip-Stoff, Sonderfarbe",
     "sku": "H1812"
   },
@@ -3758,7 +3758,7 @@ export const products: Product[] = [
     "name": "‘Hille - 42/24 35",
     "category": "Parts",
     "price": 1,
-    "image": "/placeholder-H1014.png",
+    "image": "/placeholder-H1014.svg",
     "description": "‘Hille - 42/24 35",
     "sku": "H1014"
   },
@@ -3767,7 +3767,7 @@ export const products: Product[] = [
     "name": "Nummerntuch, transparent",
     "category": "Parts",
     "price": 37.8,
-    "image": "/placeholder-H1514.png",
+    "image": "/placeholder-H1514.svg",
     "description": "Nummerntuch, transparent",
     "sku": "H1514"
   },
@@ -3776,16 +3776,16 @@ export const products: Product[] = [
     "name": "‘Schakel KK6280_Seilspinne",
     "category": "Parts",
     "price": 31,
-    "image": "/placeholder-H1519.png",
+    "image": "/placeholder-H1519.svg",
     "description": "‘Schakel KK6280_Seilspinne",
     "sku": "H1519"
   },
   {
     "id": "H1818",
     "name": "Ventileine color wei8, @ 8 mm",
-    "category": "Parts",
+    "category": "Burner",
     "price": 6.3,
-    "image": "/placeholder-H1818.png",
+    "image": "/placeholder-H1818.svg",
     "description": "Ventileine color wei8, @ 8 mm",
     "sku": "H1818"
   },
@@ -3794,7 +3794,7 @@ export const products: Product[] = [
     "name": "ENG_Flytec Vorbereitung",
     "category": "Parts",
     "price": 0,
-    "image": "/placeholder-HA1064.png",
+    "image": "/placeholder-HA1064.svg",
     "description": "ENG_Flytec Vorbereitung",
     "sku": "HA1064"
   },
@@ -3803,7 +3803,7 @@ export const products: Product[] = [
     "name": "Windtuch (bis BaugréBe 42/24) 1.",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-HA1121.png",
+    "image": "/placeholder-HA1121.svg",
     "description": "Windtuch (bis BaugréBe 42/24) 1.",
     "sku": "HA1121"
   },
@@ -3812,7 +3812,7 @@ export const products: Product[] = [
     "name": "Windtuch (Baugréte 1.",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-HA1122.png",
+    "image": "/placeholder-HA1122.svg",
     "description": "Windtuch (Baugréte 1.",
     "sku": "HA1122"
   },
@@ -3821,7 +3821,7 @@ export const products: Product[] = [
     "name": "PVC-Material 600 gim*",
     "category": "Parts",
     "price": 23.1,
-    "image": "/placeholder-HA1515.png",
+    "image": "/placeholder-HA1515.svg",
     "description": "PVC-Material 600 gim*",
     "sku": "HA1515"
   },
@@ -3830,7 +3830,7 @@ export const products: Product[] = [
     "name": "ENG_Schmelzlot without Fahne",
     "category": "Parts",
     "price": 29.4,
-    "image": "/placeholder-HA5104.png",
+    "image": "/placeholder-HA5104.svg",
     "description": "ENG_Schmelzlot without Fahne",
     "sku": "HA5104"
   },
@@ -3839,16 +3839,16 @@ export const products: Product[] = [
     "name": "Quergurte, 50 mm (Parachute)",
     "category": "Parts",
     "price": 4,
-    "image": "/placeholder-HAN.png",
+    "image": "/placeholder-HAN.svg",
     "description": "Quergurte, 50 mm (Parachute)",
     "sku": "HAN"
   },
   {
     "id": "HANT",
     "name": "Leder",
-    "category": "Parts",
+    "category": "Basket",
     "price": 33.75,
-    "image": "/placeholder-HANT.png",
+    "image": "/placeholder-HANT.svg",
     "description": "Leder",
     "sku": "HANT"
   },
@@ -3857,7 +3857,7 @@ export const products: Product[] = [
     "name": "Muffe",
     "category": "Parts",
     "price": 44.5,
-    "image": "/placeholder-LORCH.png",
+    "image": "/placeholder-LORCH.svg",
     "description": "Muffe",
     "sku": "LORCH"
   },
@@ -3866,10 +3866,10 @@ export const products: Product[] = [
     "name": "Muffe 3810",
     "category": "Parts",
     "price": 62.5,
-    "image": "/placeholder-TEMA.png",
+    "image": "/placeholder-TEMA.svg",
     "description": "Muffe 3810",
     "sku": "TEMA"
   }
 ];
 
-export const categories = ['All', 'Burner', 'Basket', 'Envelope', 'Instruments', 'Parts'];
+export const categories = ['All', 'Burner', 'Basket', 'Envelope', 'Instruments', 'Tank', 'Clothing', 'Parts'];
