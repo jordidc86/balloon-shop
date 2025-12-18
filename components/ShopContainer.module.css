@@ -26,11 +26,13 @@
     width: 100%;
     padding: 12px 20px;
     border-radius: 30px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid rgba(255, 255, 255, 0.08);
     font-size: 1rem;
     outline: none;
     transition: all 0.2s;
     box-shadow: var(--shadow-sm);
+    background: var(--color-bg-card);
+    color: var(--color-text-main);
 }
 
 .searchInput:focus {
@@ -46,8 +48,8 @@
 }
 
 .filterBtn {
-    background: white;
-    border: 1px solid #e0e0e0;
+    background: var(--color-bg-card);
+    border: 1px solid rgba(255, 255, 255, 0.08);
     padding: 8px 24px;
     border-radius: 24px;
     font-size: 0.95rem;
@@ -57,18 +59,18 @@
 }
 
 .filterBtn:hover {
-    border-color: var(--color-text-main);
+    border-color: var(--color-primary);
     color: var(--color-text-main);
 }
 
 .active {
-    background: var(--color-text-main);
+    background: var(--color-primary);
     color: white;
-    border-color: var(--color-text-main);
+    border-color: var(--color-primary);
 }
 
 .active:hover {
-    background: var(--color-text-main);
+    background: var(--color-primary-dark);
     color: white;
 }
 

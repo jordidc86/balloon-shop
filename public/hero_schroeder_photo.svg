@@ -1,0 +1,75 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Schroeder balloon gliding above sunrise mountains</title>
+  <desc id="heroDesc">Illustration of a Schroeder hot air balloon soaring above glowing mountains at dawn, inspired by the brand's photography.</desc>
+  <defs>
+    <linearGradient id="sky" x1="800" y1="0" x2="800" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0D1B2A"/>
+      <stop offset="0.55" stop-color="#1B365C"/>
+      <stop offset="1" stop-color="#4F6C9B"/>
+    </linearGradient>
+    <linearGradient id="sunrise" x1="800" y1="520" x2="800" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFB35C" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FF7B2F" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="balloon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF6B35"/>
+      <stop offset="1" stop-color="#C03A1D"/>
+    </linearGradient>
+    <linearGradient id="balloonHighlight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFD7C2" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FF9B6B" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="ridge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#102039"/>
+      <stop offset="1" stop-color="#0B1524"/>
+    </linearGradient>
+    <linearGradient id="ridgeBack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1C2D4A"/>
+      <stop offset="1" stop-color="#15243D"/>
+    </linearGradient>
+    <linearGradient id="shadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="32" result="blur"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1230" cy="360" r="180" fill="#FFDEB5" fill-opacity="0.9" filter="url(#glow)"/>
+  <path d="M0 610C220 540 380 520 640 580C860 630 1130 620 1340 550C1470 510 1600 520 1600 520V900H0V610Z" fill="url(#ridgeBack)"/>
+  <path d="M0 670C190 640 420 640 610 660C880 690 1130 700 1340 650C1470 620 1600 620 1600 620V900H0V670Z" fill="url(#ridge)"/>
+  <rect x="0" y="520" width="1600" height="380" fill="url(#sunrise)" fill-opacity="0.55"/>
+  <g transform="translate(520 150)">
+    <ellipse cx="260" cy="520" rx="180" ry="38" fill="#0C182B" fill-opacity="0.45"/>
+    <g transform="translate(70 0)">
+      <path d="M190 120C140 120 90 140 60 190C40 220 32 260 36 300C48 430 150 520 190 520C230 520 332 430 344 300C348 260 340 220 320 190C290 140 240 120 190 120Z" fill="url(#balloon)"/>
+      <path d="M190 128C148 128 118 146 94 174C74 198 62 227 58 258C48 343 132 414 190 414C248 414 332 343 322 258C318 227 306 198 286 174C262 146 232 128 190 128Z" fill="url(#balloonHighlight)" opacity="0.55"/>
+      <path d="M140 460H240L230 520H150L140 460Z" fill="#493423"/>
+      <rect x="155" y="440" width="70" height="20" rx="6" fill="#2F261B"/>
+      <rect x="142" y="430" width="96" height="10" rx="4" fill="#6D513A"/>
+      <path d="M160 430L138 360" stroke="#DDE6F5" stroke-width="6" stroke-linecap="round"/>
+      <path d="M220 430L242 360" stroke="#DDE6F5" stroke-width="6" stroke-linecap="round"/>
+      <path d="M188 152C170 152 154 154 138 158V216H238V158C222 154 206 152 188 152Z" fill="#0F1C2E" opacity="0.35"/>
+      <path d="M94 174C118 206 148 224 190 224C232 224 262 206 286 174" stroke="#FFD8C3" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+      <rect x="118" y="300" width="144" height="10" rx="5" fill="#F6EAE0" opacity="0.7"/>
+      <rect x="118" y="330" width="144" height="10" rx="5" fill="#F6EAE0" opacity="0.55"/>
+      <rect x="118" y="360" width="144" height="10" rx="5" fill="#F6EAE0" opacity="0.35"/>
+      <path d="M190 120C206 120 222 122 238 126C212 80 188 52 188 52C188 52 164 80 138 126C154 122 170 120 186 120H190Z" fill="#FFB35C"/>
+    </g>
+    <path d="M224 520C250 500 290 490 328 500" stroke="#000" stroke-opacity="0.22" stroke-width="18" stroke-linecap="round" filter="url(#shadow)"/>
+  </g>
+  <g transform="translate(1220 260) scale(0.6)">
+    <ellipse cx="120" cy="480" rx="110" ry="28" fill="#0C182B" fill-opacity="0.35"/>
+    <g>
+      <path d="M120 120C90 120 60 138 42 170C24 202 18 240 22 276C32 374 102 440 120 440C138 440 208 374 218 276C222 240 216 202 198 170C180 138 150 120 120 120Z" fill="#1D9AD6"/>
+      <path d="M120 132C96 132 78 143 64 160C52 176 44 196 42 217C36 280 92 328 120 328C148 328 204 280 198 217C196 196 188 176 176 160C162 143 144 132 120 132Z" fill="#7FD2FF" opacity="0.45"/>
+      <path d="M90 394H150L144 440H96L90 394Z" fill="#493423"/>
+      <rect x="98" y="378" width="44" height="16" rx="6" fill="#2F261B"/>
+      <rect x="90" y="370" width="62" height="10" rx="4" fill="#6D513A"/>
+      <path d="M104 370L86 320" stroke="#DDE6F5" stroke-width="6" stroke-linecap="round"/>
+      <path d="M138 370L156 320" stroke="#DDE6F5" stroke-width="6" stroke-linecap="round"/>
+      <path d="M68 160C92 186 108 198 120 198C132 198 148 186 172 160" stroke="#D0EEFF" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
+    </g>
+  </g>
+</svg>
