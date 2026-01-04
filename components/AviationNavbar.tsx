@@ -1,29 +1,30 @@
+'use client';
+
 import Link from 'next/link';
+import { useCart } from '@/context/CartContext';
 import styles from './AviationNavbar.module.css';
 
 export default function AviationNavbar() {
+  const { items, toggleCart } = useCart();
+  const itemCount = items.reduce((sum, item) => sum + item.quantity, 0);
+
   return (
     <nav className={styles.nav}>
       <div className={`${styles.container} container`}>
-        <div className={styles.logoAndFleet}>
-          <Link href="/" className={styles.logo}>
-            AIRPARTS <span className={styles.pro}>PRO</span>
-          </Link>
-          <div className={styles.fleetSelector}>
-            <span className={styles.statusDot}></span>
-            <span className={styles.fleetId}>D-OXXX (Schroeder G-Series)</span>
-          </div>
-        </div>
+        <Link href="/" className={styles.logo}>
+          SCHROEDER <span className={styles.pro}>PARTS</span>
+        </Link>
         
         <div className={styles.links}>
-          <Link href="/catalog" className={styles.link}>Catalog</Link>
-          <Link href="/schematics" className={styles.link}>Schematics</Link>
-          <Link href="/compliance" className={styles.link}>Compliance</Link>
-          <Link href="/aog" className={`${styles.link} ${styles.aog}`}>AOG Support</Link>
+          <Link href="/" className={styles.link}>Shop</Link>
+          <a href="https://schroederballon.de/en/technical-support/" target="_blank" rel="noopener noreferrer" className={styles.link}>Manuals</a>
+          <a href="https://schroederballon.de/en/contact/" target="_blank" rel="noopener noreferrer" className={styles.link}>Support</a>
         </div>
 
         <div className={styles.userSection}>
-          <button className={styles.accountBtn}>JP</button>
+          <button className={styles.cartToggle} onClick={toggleCart}>
+            Cart ({itemCount})
+          </button>
         </div>
       </div>
     </nav>
