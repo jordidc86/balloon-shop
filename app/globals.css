@@ -1,20 +1,24 @@
 :root {
-  /* Red & Black Palette */
-  --color-primary: #d50000;
-  --color-primary-dark: #9a0007;
-  --color-secondary: #0d0d10;
-  --color-accent: #ff5252;
-  --color-text-main: #f5f5f5;
-  --color-text-light: #b3b3b3;
-  --color-bg-body: #0b0b0e;
-  --color-bg-card: #15151b;
+  /* Premium Dark Palette - High Contrast */
+  --color-primary: #e60000; /* More vibrant red */
+  --color-primary-hover: #ff1a1a;
+  --color-bg: #0a0a0c;
+  --color-surface: #141418;
+  --color-surface-hover: #1c1c22;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-text-main: #ffffff;
+  --color-text-dim: #b0b0b8; /* Slightly brighter for better contrast on dark */
+  --color-success: #10b981;
+  --color-danger: #ef4444;
+  --glass: rgba(10, 10, 12, 0.85);
+  
   --radius: 8px;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --font-heading: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Prefer Inter when available */
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  --transition: all 0.3s ease;
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.4);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.5);
+  --shadow-lg: 0 12px 32px rgba(0,0,0,0.6);
+  
+  --font-body: 'Inter', -apple-system, sans-serif;
+  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 * {
@@ -24,7 +28,6 @@
 }
 
 body {
-  background-color: var(--color-bg-body);
   background-color: var(--color-bg);
   color: var(--color-text-main);
   font-family: var(--font-body);
@@ -33,9 +36,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading);
+  font-family: var(--font-body);
   font-weight: 700;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.02em;
   color: var(--color-text-main);
 }
 

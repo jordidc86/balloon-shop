@@ -42,11 +42,12 @@
   border: 1px solid transparent;
   padding: 0.6rem 1rem;
   border-radius: 6px;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--color-text-dim);
   cursor: pointer;
   transition: all 0.2s;
   text-align: left;
+  font-weight: 500;
 }
 
 .filterBtn:hover {
