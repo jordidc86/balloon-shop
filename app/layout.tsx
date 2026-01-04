@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Providers } from './providers';
+import AviationNavbar from "@/components/AviationNavbar";
 
 export const metadata: Metadata = {
   title: 'Schroeder Parts | Premium Balloon Components',
@@ -9,13 +10,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en">
       <body>
         <Providers>
+          <AviationNavbar />
           {children}
         </Providers>
       </body>

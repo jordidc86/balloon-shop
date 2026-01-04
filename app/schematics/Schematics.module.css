@@ -1,0 +1,134 @@
+.main {
+  padding: 3rem 0;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  color: var(--color-text-dim);
+  font-size: 0.9rem;
+}
+
+.explorer {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 2rem;
+  height: 600px;
+}
+
+.canvas {
+  background: #000;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.svg {
+  width: 90%;
+  height: 90%;
+  color: rgba(255,255,255,0.1);
+}
+
+.box {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.box:hover, .box.active {
+  fill: rgba(59, 130, 246, 0.1);
+  stroke-dasharray: 0;
+  stroke-width: 3px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.partsList {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.partItem {
+  padding: 1rem;
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.2s;
+}
+
+.activeItem {
+  background: var(--color-surface-hover);
+}
+
+.partInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.sku {
+  font-size: 0.75rem;
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.name {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.addBtn {
+  width: 28px;
+  height: 28px;
+  background: var(--color-border);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--color-text-main);
+  transition: background 0.2s;
+}
+
+.addBtn:hover {
+  background: var(--color-primary);
+}
+
+.aiNudge {
+  background: rgba(59, 130, 246, 0.05);
+  border: 1px solid var(--color-primary);
+  padding: 1.25rem;
+  border-radius: 8px;
+}
+
+.aiNudge h4 {
+  color: var(--color-primary);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.aiNudge p {
+  font-size: 0.85rem;
+  color: var(--color-text-dim);
+  line-height: 1.4;
+}
