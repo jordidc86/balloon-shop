@@ -1,0 +1,182 @@
+.main {
+  padding: 4rem 0;
+}
+
+.header {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.aogBadge {
+  background: rgba(239, 68, 68, 0.1);
+  color: var(--color-danger);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: 1px solid var(--color-danger);
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.initContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: 3rem;
+  border-radius: 12px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: var(--color-text-dim);
+  margin-bottom: 2rem;
+}
+
+.activeAog {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 2rem;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.tracker {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.trackerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.liveStatus {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 0.85rem;
+  animation: blink 1.5s infinite;
+}
+
+.steps {
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.steps::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--color-border);
+}
+
+.step {
+  position: relative;
+  padding-bottom: 3rem;
+}
+
+.dot {
+  position: absolute;
+  left: -1.5rem;
+  top: 0;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-bg);
+  border: 2px solid var(--color-border);
+  z-index: 10;
+}
+
+.completed .dot {
+  background: var(--color-success);
+  border-color: var(--color-success);
+}
+
+.current .dot {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 10px var(--color-primary);
+}
+
+.stepContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.stepContent strong {
+  font-size: 1.1rem;
+}
+
+.stepContent span {
+  font-size: 0.85rem;
+  color: var(--color-text-dim);
+}
+
+.logisticsInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.infoBox {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.infoBox h4 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--color-text-dim);
+  margin-bottom: 0.5rem;
+}
+
+.weatherOk {
+  color: var(--color-success);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.actionBtn {
+  margin-top: 1rem;
+  width: 100%;
+  background: var(--color-border);
+  border: none;
+  color: white;
+  padding: 0.6rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@keyframes blink {
+  0% { opacity: 0.2; }
+  50% { opacity: 1; }
+  100% { opacity: 0.2; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
