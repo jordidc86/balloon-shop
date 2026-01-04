@@ -1,13 +1,22 @@
-'use client';
+"use client"
 
-import { CartProvider } from '@/context/CartContext';
-import CartSidebar from '@/components/CartSidebar';
+import { MedusaProvider } from "medusa-react"
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
+import { CartProvider } from "../context/CartContext"
 
-export function Providers({ children }: { children: React.ReactNode }) {
-    return (
+const queryClient = new QueryClient()
+
+export const Providers = ({ children }: { children: React.ReactNode }) => {
+  return (
+    <QueryClientProvider client={queryClient}>
+      <MedusaProvider
+        baseUrl={process.env.NEXT_PUBLIC_MEDUSA_BACKEND_URL || "http://localhost:9000"}
+        queryClientProviderProps={{ client: queryClient }}
+      >
         <CartProvider>
-            {children}
-            <CartSidebar />
+          {children}
         </CartProvider>
-    );
+      </MedusaProvider>
+    </QueryClientProvider>
+  )
 }

@@ -9,7 +9,7 @@ export default function CatalogPage() {
           <h1 style={{ fontSize: '2.5rem', fontWeight: 800 }}>Component Catalog</h1>
           <p style={{ color: 'var(--color-text-dim)' }}>Filtered for D-OXXX (Schroeder G-Series)</p>
         </header>
-        <ShopContainer products={products} categories={categories} />
+        <ShopContainer initialProducts={products} categories={categories} />
       </div>
     </main>
   );

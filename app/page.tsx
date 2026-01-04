@@ -8,7 +8,7 @@ export default function Home() {
     <main className={styles.main}>
       <Hero />
       <div className="container" style={{ paddingBottom: '8rem' }}>
-        <ShopContainer products={products} categories={categories} />
+        <ShopContainer initialProducts={products} categories={categories} />
       </div>
       <footer style={{ background: 'var(--color-surface)', padding: '60px 0', textAlign: 'center', borderTop: '1px solid var(--color-border)' }}>
         <div className="container">
