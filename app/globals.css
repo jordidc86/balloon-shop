@@ -1,24 +1,24 @@
 :root {
-  /* Premium Dark Palette - High Contrast */
-  --color-primary: #e60000; /* More vibrant red */
-  --color-primary-hover: #ff1a1a;
-  --color-bg: #0a0a0c;
-  --color-surface: #141418;
-  --color-surface-hover: #1c1c22;
-  --color-border: rgba(255, 255, 255, 0.08);
-  --color-text-main: #ffffff;
-  --color-text-dim: #b0b0b8; /* Slightly brighter for better contrast on dark */
+  /* Clean Light Palette - Professional & High Contrast */
+  --color-primary: #d50000; /* Schroeder Red */
+  --color-primary-hover: #b70000;
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-hover: #f1f5f9;
+  --color-border: #e2e8f0;
+  --color-text-main: #0f172a; /* Slate 900 */
+  --color-text-dim: #64748b; /* Slate 500 */
   --color-success: #10b981;
   --color-danger: #ef4444;
-  --glass: rgba(10, 10, 12, 0.85);
   
   --radius: 8px;
-  --shadow-sm: 0 2px 8px rgba(0,0,0,0.4);
-  --shadow-md: 0 4px 16px rgba(0,0,0,0.5);
-  --shadow-lg: 0 12px 32px rgba(0,0,0,0.6);
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
   
   --font-body: 'Inter', -apple-system, sans-serif;
   --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --glass: rgba(255, 255, 255, 0.85); /* Light glassmorphism */
 }
 
 * {
@@ -37,9 +37,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-body);
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: -0.02em;
   color: var(--color-text-main);
+  line-height: 1.2;
 }
 
 a {
@@ -56,10 +57,15 @@ img {
 .container {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
 }
 
-/* Base Components Overhaul */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -68,7 +74,7 @@ img {
   border-radius: 6px;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--transition);
   border: none;
   font-size: 0.9rem;
   text-transform: uppercase;
@@ -78,42 +84,20 @@ img {
 .btn-primary {
   background: var(--color-primary);
   color: white;
-  box-shadow: var(--shadow-sm); /* Kept from original, but shadow-sm is new */
 }
 
 .btn-primary:hover {
   background: var(--color-primary-hover);
   transform: translateY(-1px);
-  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.4);
-}
-
-.btn-aog {
-  background: var(--color-danger);
-  color: white;
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
-  70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+  box-shadow: 0 4px 12px rgba(213, 0, 0, 0.3);
 }
 
 .section {
-  padding: 80px 0;
+  padding: 4rem 0;
 }
 
-.grid {
-  display: grid;
-  gap: 32px;
-}
-
-/* Animations */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.fade-in {
-  animation: fadeIn 0.8s ease forwards;
+@media (max-width: 768px) {
+  .section {
+    padding: 2.5rem 0;
+  }
 }

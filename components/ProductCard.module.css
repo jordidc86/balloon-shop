@@ -3,29 +3,32 @@
   border: 1px solid var(--color-border);
   border-radius: 12px;
   overflow: hidden;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--transition);
   display: flex;
   flex-direction: column;
+  box-shadow: var(--shadow-sm);
 }
 
 .card:hover {
-  transform: translateY(-8px);
-  border-color: var(--color-primary);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(213, 0, 0, 0.2);
 }
 
 .imageWrapper {
-  height: 200px;
-  background: #101014;
+  height: 220px;
+  background: #f8fafc;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .image {
   object-fit: contain;
-  transition: transform 0.5s ease;
+  transition: transform 0.3s ease;
 }
 
 .card:hover .image {
@@ -40,33 +43,34 @@
 }
 
 .category {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   color: var(--color-primary);
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
 .title {
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   font-weight: 700;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
   line-height: 1.4;
+  color: var(--color-text-main);
 }
 
 .badge {
   position: absolute;
   top: 12px;
   right: 12px;
-  background: rgba(0, 0, 0, 0.55);
+  background: white;
   padding: 4px 12px;
   border-radius: 20px;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 700;
   color: var(--color-text-dim);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(6px);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-border);
 }
 
 .footer {
@@ -78,23 +82,33 @@
 
 .price {
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--color-text-main);
 }
 
 .addButton {
-  background: transparent;
-  border: 1px solid var(--color-primary);
+  background: var(--color-surface);
+  border: 2px solid var(--color-primary);
   color: var(--color-primary);
-  padding: 6px 12px;
-  border-radius: 4px;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
   font-weight: 700;
   cursor: pointer;
-  transition: all 0.2s;
-  font-size: 0.8rem;
+  transition: var(--transition);
+  font-size: 0.85rem;
 }
 
 .addButton:hover {
   background: var(--color-primary);
   color: white;
+}
+
+@media (max-width: 640px) {
+  .imageWrapper {
+    height: 180px;
+  }
+  
+  .title {
+    font-size: 1rem;
+  }
 }
