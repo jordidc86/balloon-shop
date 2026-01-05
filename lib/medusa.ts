@@ -2,7 +2,11 @@ import Medusa from "@medusajs/medusa-js"
 
 const BACKEND_URL = process.env.NEXT_PUBLIC_MEDUSA_BACKEND_URL || "http://localhost:9000"
 
-export const medusa = new Medusa({ baseUrl: BACKEND_URL, maxRetries: 3 })
+export const medusa = new Medusa({ 
+  baseUrl: BACKEND_URL, 
+  maxRetries: 3,
+  publishableApiKey: "pk_af35a387013c7ee335232c0f595a683235dcf3fe97e08247801dc168b992ead6"
+})
 
 // Helper to fetch products from Medusa
 export const fetchMedusaProducts = async () => {
