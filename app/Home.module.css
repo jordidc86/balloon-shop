@@ -1,114 +1,159 @@
-.main {
-  background: var(--color-bg);
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
 }
 
 .hero {
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-  background: radial-gradient(circle at top right, rgba(59, 130, 246, 0.1), transparent 50%);
-}
-
-.heroContent {
-  max-width: 700px;
-  animation: slideUp 0.6s ease-out;
-}
-
-.badge {
-  display: inline-block;
-  color: var(--color-primary);
-  font-weight: 700;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
+  background: linear-gradient(135deg, #102a43, #243b53);
+  color: #fff;
+  border-radius: 16px;
+  padding: 2.2rem;
   margin-bottom: 1.5rem;
 }
 
-.title {
-  font-size: 4rem;
-  line-height: 1.1;
-  font-weight: 900;
-  letter-spacing: -0.04em;
-  margin-bottom: 2rem;
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  font-size: 0.8rem;
+  opacity: 0.85;
 }
 
-.title span {
-  color: var(--color-primary);
+.hero h1 {
+  color: #fff;
+  font-size: clamp(1.7rem, 3.2vw, 2.6rem);
+  margin: 0.4rem 0 0.8rem;
 }
 
-.subtitle {
-  font-size: 1.25rem;
-  color: var(--color-text-dim);
-  margin-bottom: 3rem;
-  line-height: 1.6;
+.hero > p {
+  max-width: 700px;
+  opacity: 0.95;
 }
 
-.actions {
+.heroMeta {
   display: flex;
-  gap: 1.5rem;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
 }
 
-.secondaryBtn {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.75rem 1.5rem;
-  color: var(--color-text-main);
-  text-decoration: none;
-  font-weight: 600;
-  border: 1px solid var(--color-border);
-  border-radius: 6px;
-  transition: all 0.2s;
+.heroMeta span {
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  padding: 0.28rem 0.75rem;
+  font-size: 0.84rem;
 }
 
-.secondaryBtn:hover {
-  background: var(--color-surface);
+.toolbar {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.2rem;
 }
 
-.features {
-  padding: 6rem 0;
-  background: var(--color-surface);
-  border-top: 1px solid var(--color-border);
+.filterChip {
+  border: 1px solid #d0d7de;
+  border-radius: 999px;
+  background: #fff;
+  padding: 0.45rem 0.85rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.active {
+  border-color: #0ea5e9;
+  color: #0c4a6e;
+  background: #e0f2fe;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
 }
 
 .card {
-  transition: transform 0.3s;
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 6px 20px rgba(2, 6, 23, 0.05);
 }
 
-.card:hover {
-  transform: translateY(-5px);
+.image {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
 }
 
-.icon {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
+.cardBody {
+  padding: 0.9rem;
 }
 
-.card h3 {
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
+.cardTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.cardTop h2 {
+  font-size: 1.03rem;
+  line-height: 1.35;
+}
+
+.location {
+  color: #475569;
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+}
+
+.status {
+  font-size: 0.75rem;
   font-weight: 700;
+  border-radius: 999px;
+  padding: 0.22rem 0.56rem;
+  white-space: nowrap;
 }
 
-.card p {
-  color: var(--color-text-dim);
-  font-size: 0.95rem;
-  line-height: 1.6;
+.available {
+  background: #dcfce7;
+  color: #166534;
 }
 
-@keyframes slideUp {
-  from { opacity: 0; transform: translateY(30px); }
-  to { opacity: 1; transform: translateY(0); }
+.reserved {
+  background: #fef3c7;
+  color: #92400e;
 }
 
-@media (max-width: 768px) {
-  .title { font-size: 2.5rem; }
-  .grid { grid-template-columns: 1fr; gap: 2rem; }
+.specs {
+  margin-top: 0.7rem;
+  padding-left: 1rem;
+  color: #334155;
+  display: grid;
+  gap: 0.26rem;
+  font-size: 0.86rem;
+}
+
+.footerRow {
+  margin-top: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerRow strong {
+  font-size: 1.05rem;
+}
+
+.contactBtn {
+  border: none;
+  background: #0ea5e9;
+  color: #fff;
+  padding: 0.48rem 0.8rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
 }
